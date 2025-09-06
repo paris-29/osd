@@ -6,7 +6,7 @@ import ScrollAnimations from '../components/ScrollAnimations.jsx';
 import Footer from '../components/Footer.jsx';
 import Counter from '../components/Counter';
 import '../styles/global.css';
-import Countdown from "../components/Countdown.jsx";
+import CountdownTimer from "../components/CountdownTimer.jsx";
 
 ---
 
@@ -132,21 +132,6 @@ import Countdown from "../components/Countdown.jsx";
 
   <!-- Countdown Section -->
 
-<section class="py-20 px-4 bg-white">
-  <div class="max-w-4xl mx-auto text-center animate-fade-up">
-    <h2 class="text-4xl md:text-5xl font-bold text-black mb-6">Ready to Join Us?</h2>
-    <p class="text-xl text-black mb-8">
-      Don't miss out on this amazing open source community event. Register now!
-    </p>
-    <a
-      href="https://konfhub.com/open-source-day-2025"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="inline-block bg-green-500 hover:bg-green-400 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-200 glow-effect hover:scale-105 transform"
-    >
-      Register Now
-    </a>
-  </div>
 
   <!-- Countdown appears here -->
 <div class="mt-5 py-16 px-4 bg-gradient-to-r from-green-50 to-green-100">
@@ -155,7 +140,7 @@ import Countdown from "../components/Countdown.jsx";
       Countdown to the Event 🚀
     </h3>
 
-    <Countdown client:load />
+    <CountdownTimer client:load />
   </div>
 </div>
 
