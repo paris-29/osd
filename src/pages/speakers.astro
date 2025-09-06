@@ -1,52 +1,8 @@
 ---
 import Layout from '../components/Layout.astro';
 import Navigation from '../components/Navigation.jsx';
+import { SPEAKERS } from '../config.ts';
 import '../styles/global.css';
-
-const speakers = [
-  {
-    name: "Sarah Chen",
-    title: "Lead Developer at GitHub",
-    bio: "Open source advocate and maintainer of popular JavaScript libraries",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
-    talk: "The Future of Open Source Collaboration"
-  },
-  {
-    name: "Marcus Rodriguez",
-    title: "CTO at DevCorp",
-    bio: "Expert in cloud infrastructure and container orchestration",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-    talk: "Scaling Open Source Projects"
-  },
-  {
-    name: "Dr. Aisha Patel",
-    title: "AI Research Scientist",
-    bio: "Leading researcher in machine learning and AI ethics",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
-    talk: "AI in Open Source: Opportunities and Challenges"
-  },
-  {
-    name: "James Wilson",
-    title: "Founder of OpenTech",
-    bio: "Serial entrepreneur and open source evangelist",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-    talk: "Building Sustainable Open Source Communities"
-  },
-  {
-    name: "Lisa Zhang",
-    title: "Security Engineer at CyberSafe",
-    bio: "Cybersecurity expert specializing in open source security",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-    talk: "Security Best Practices in Open Source"
-  },
-  {
-    name: "David Kumar",
-    title: "DevOps Architect",
-    bio: "Infrastructure automation and CI/CD pipeline expert",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
-    talk: "Modern DevOps with Open Source Tools"
-  }
-];
 ---
 
 <Layout title="Speakers - OpenSource Weekend 2025">
@@ -55,6 +11,9 @@ const speakers = [
   <!-- Hero Section -->
   <section class="pt-32 pb-20 px-4">
     <div class="max-w-6xl mx-auto text-center">
+      <div class="mb-8 flex justify-center">
+        <img src="/icons/OSDLogo.svg" alt="Open Source Day Logo" class="w-16 h-16 md:w-20 md:h-20" />
+      </div>
       <h1 class="text-5xl md:text-7xl font-bold gradient-text mb-6">Our Speakers</h1>
       <p class="text-xl text-black-300 max-w-3xl mx-auto">
         Learn from industry leaders, open source maintainers, and innovative thinkers 
@@ -67,13 +26,13 @@ const speakers = [
   <section class="py-20 px-4">
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {speakers.map((speaker) => (
-          <div class="bg-gray-900/50 rounded-xl border border-green-500/20 backdrop-blur-sm hover:border-green-500/40 transition-all duration-300 overflow-hidden group">
-            <div class="aspect-square overflow-hidden">
+        {SPEAKERS.map((speaker) => (
+          <div class="bg-gray-900/50 rounded-xl border border-green-500/20 backdrop-blur-sm hover:border-green-500/40 transition-all duration-300 group">
+            <div class="aspect-square overflow-hidden rounded-t-xl">
               <img 
                 src={speaker.image} 
                 alt={speaker.name}
-                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div class="p-6">

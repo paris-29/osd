@@ -1,6 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import Navigation from '../components/Navigation.jsx';
+import { VENUE } from '../config.ts';
 import '../styles/global.css';
 ---
 
@@ -10,6 +11,9 @@ import '../styles/global.css';
   <!-- Hero Section -->
   <section class="pt-32 pb-20 px-4 bg-white">
     <div class="max-w-6xl mx-auto text-center">
+      <div class="mb-8 flex justify-center">
+        <img src="/icons/OSDLogo.svg" alt="Open Source Day Logo" class="w-16 h-16 md:w-20 md:h-20" />
+      </div>
       <h1 class="text-5xl md:text-7xl font-bold gradient-text mb-6">The Venue</h1>
       <p class="text-xl text-black max-w-3xl mx-auto">
         Join us at a premium venue in the heart of the tech hub, designed for 

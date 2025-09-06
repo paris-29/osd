@@ -1,68 +1,8 @@
 ---
 import Layout from '../components/Layout.astro';
 import Navigation from '../components/Navigation.jsx';
+import { TICKETS } from '../config.ts';
 import '../styles/global.css';
-
-const ticketTypes = [
-  {
-    name: "Student",
-    price: "₹99",
-    originalPrice: "₹199",
-    description: "Special pricing for students with valid ID",
-    features: [
-      "Access to all sessions and talks",
-      "Networking opportunities",
-      "Conference materials",
-      "Certificate of participation",
-      "Access to community channels",
-      "Refreshments and lunch",
-      "Student networking session",
-      "Career guidance session"
-    ],
-    popular: false,
-    available: true,
-    konfhubUrl: "https://konfhub.com/open-source-day-2025"
-  },
-  {
-    name: "General",
-    price: "₹199",
-    originalPrice: null,
-    description: "Full access to Open Source Day 2025",
-    features: [
-      "Access to all keynote sessions",
-      "Technical talks and workshops",
-      "Networking opportunities",
-      "Conference swag bag",
-      "Digital resources and materials",
-      "Certificate of participation",
-      "Access to community Discord",
-      "Refreshments and lunch included",
-      "Post-event resources"
-    ],
-    popular: true,
-    available: true,
-    konfhubUrl: "https://konfhub.com/open-source-day-2025"
-  },
-  {
-    name: "Sponsor",
-    price: "Contact Us",
-    originalPrice: null,
-    description: "Sponsorship opportunities available",
-    features: [
-      "Brand visibility at the event",
-      "Logo placement on materials",
-      "Booth space for exhibition",
-      "Speaking opportunity",
-      "Access to attendee networking",
-      "Social media promotion",
-      "Post-event report",
-      "Community partnership benefits"
-    ],
-    popular: false,
-    available: true,
-    konfhubUrl: "https://konfhub.com/open-source-day-2025"
-  }
-];
 ---
 
 <Layout title="Tickets - OpenSource Weekend 2025">
@@ -71,6 +11,9 @@ const ticketTypes = [
   <!-- Hero Section -->
   <section class="pt-32 pb-20 px-4 bg-white">
     <div class="max-w-6xl mx-auto text-center">
+      <div class="mb-8 flex justify-center">
+        <img src="/icons/OSDLogo.svg" alt="Open Source Day Logo" class="w-16 h-16 md:w-20 md:h-20" />
+      </div>
       <h1 class="text-5xl md:text-7xl font-bold gradient-text mb-6">Get Your Tickets</h1>
       <p class="text-xl text-black max-w-3xl mx-auto mb-8">
         Choose the perfect ticket for your needs. All tickets include access to sessions, 
@@ -89,8 +32,8 @@ const ticketTypes = [
   <section class="py-20 px-4 bg-white">
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {ticketTypes.map((ticket) => (
-          <div class={`relative light-card rounded-xl p-8 transition-all duration-300 hover:scale-105 ${
+        {TICKETS.map((ticket) => (
+          <div class={`relative light-card rounded-xl p-8 transition-all duration-300 hover:scale-102 ${
             ticket.popular 
               ? 'border-green-500 ring-2 ring-green-500/20' 
               : 'hover:border-green-500/40'

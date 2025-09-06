@@ -1,0 +1,299 @@
+// src/config.ts
+
+export const SITE = {
+  title: "OpenSourceDay 2025",
+  shortTitle: "OSD2025",
+  description:
+    "OpenSourceDay is all about giving back to the open source projects, sharpening your skills, and celebrating all things open source. Join us for a day!",
+  website: "https://opensourceweekend.org",
+  ogImage: "/images/OSWBlack.png",
+  icon: "/icons/OSDLogo.svg"
+};
+
+export const BRANDING = {
+  logos: {
+    main: "/icons/OSDLogo.svg",
+    mainNoText: "/icons/OSDLogoNoText.svg",
+    fullWhite: "/icons/OSWFullWhite.svg",
+    fullBlack: "/icons/OSWFullBlack.svg",
+    white: "/icons/OSWWhite.svg",
+    black: "/icons/OSWBlack.svg"
+  },
+  colors: {
+    primary: "#22c55e",
+    secondary: "#16a34a",
+    dark: "#15803d",
+    light: "#dcfce7"
+  }
+};
+
+export const EVENT = {
+  name: "Open Source Day 2025",
+  shortName: "OSD2025",
+  date: "October 05, 2025",
+  location: "Tech Convention Center, San Jose",
+  tagline:
+    "Join the largest open source developer conference of the year. Learn, network, and contribute to the future of technology.",
+  description:
+    "Open Source Day 2025 is a community-driven event celebrating the power of open source software. Join developers, maintainers, and enthusiasts for a day of learning, collaboration, and innovation.",
+  stats: {
+    expectedAttendees: "500+",
+    speakers: "5+",
+    workshops: "15+",
+    sponsors: "20+"
+  }
+};
+
+export const NAVIGATION = {
+  items: [
+    { name: "Home", href: "/" },
+    { name: "Speakers", href: "/speakers" },
+    { name: "Venue", href: "/venue" },
+    { name: "Tickets", href: "/tickets" },
+    { name: "Past Events", href: "/past-events" },
+    { name: "Schedule", href: "/schedule" }
+  ],
+  cta: {
+    text: "Register Now",
+    url: "https://konfhub.com/open-source-day-2025"
+  }
+};
+
+export const SOCIAL_LINKS = {
+  facebook: "https://www.facebook.com/OSWeekend",
+  twitter: "https://twitter.com/OSWeekend",
+  instagram: "https://instagram.com/OSWeekend",
+  linkedin: "https://www.linkedin.com/company/open-source-weekend/",
+  medium: "https://medium.com/@opensourceweekend",
+  github: "https://github.com/opensourceweekend",
+  discord: "https://discord.gg/opensourceweekend"
+};
+
+export const CONTACT = {
+  title: "Contact Us",
+  email: "info@opensourceweekend.com",
+  phone: "+91 123456789",
+  address: {
+    venue: "TBA",
+    city: "Ahmedabad",
+    state: "Gujarat",
+    country: "India"
+  },
+  emergencyPhone: "+1 (555) 998-0000"
+};
+
+export const HERO = {
+  title: {
+    part1: "PEN",
+    part2: "SOURCE",
+    part3: "DAY",
+    year: "2025"
+  },
+  subtitle:
+    "Join us for a day of learning, networking, and celebrating open source innovation. Connect with developers, contribute to projects, and shape the future of technology.",
+  buttons: {
+    primary: {
+      text: "Register Now",
+      url: "https://konfhub.com/open-source-day-2025"
+    },
+    secondary: {
+      text: "Learn More",
+      url: "/about"
+    }
+  }
+};
+
+export const ABOUT = {
+  title: "About Open Source Day",
+  description:
+    "Open Source Day 2025 is a community-driven event celebrating the power of open source software. Join developers, maintainers, and enthusiasts for a day of learning, collaboration, and innovation.",
+  features: [
+    {
+      title: "Learn & Contribute",
+      description:
+        "Discover new technologies, learn best practices, and get hands-on experience contributing to real open source projects.",
+      icon: "check"
+    },
+    {
+      title: "Connect",
+      description:
+        "Network with fellow developers, open source maintainers, and tech enthusiasts from the Indian tech community.",
+      icon: "users"
+    },
+    {
+      title: "Celebrate",
+      description:
+        "Celebrate the achievements of the open source community and discover exciting new projects and opportunities.",
+      icon: "star"
+    }
+  ]
+};
+
+export const SPEAKERS = [
+  {
+    name: "Chavda Rohit",
+    title: "Lead Developer at GitHub",
+    bio: "Open source advocate and maintainer of popular JavaScript libraries",
+    image:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+    talk: "The Future of Open Source Collaboration"
+  },
+  {
+    name: "Marcus Rodriguez",
+    title: "CTO at DevCorp",
+    bio: "Expert in cloud infrastructure and container orchestration",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+    talk: "Scaling Open Source Projects"
+  },
+  {
+    name: "Dr. Aisha Patel",
+    title: "AI Research Scientist",
+    bio: "Leading researcher in machine learning and AI ethics",
+    image:
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
+    talk: "AI in Open Source: Opportunities and Challenges"
+  },
+  {
+    name: "James Wilson",
+    title: "Founder of OpenTech",
+    bio: "Serial entrepreneur and open source evangelist",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    talk: "Building Sustainable Open Source Communities"
+  },
+  {
+    name: "Lisa Zhang",
+    title: "Security Engineer at CyberSafe",
+    bio: "Cybersecurity expert specializing in open source security",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+    talk: "Security Best Practices in Open Source"
+  },
+  {
+    name: "David Kumar",
+    title: "DevOps Architect",
+    bio: "Infrastructure automation and CI/CD pipeline expert",
+    image:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+    talk: "Modern DevOps with Open Source Tools"
+  }
+];
+
+export const TICKETS = [
+  {
+    name: "Student",
+    price: "₹99",
+    originalPrice: "₹199",
+    description: "Special pricing for students with valid ID",
+    features: [
+      "Access to all sessions and talks",
+      "Networking opportunities",
+      "Conference materials",
+      "Certificate of participation",
+      "Access to community channels",
+      "Refreshments and lunch",
+      "Student networking session",
+      "Career guidance session"
+    ],
+    popular: false,
+    available: true,
+    konfhubUrl: "https://konfhub.com/open-source-day-2025"
+  },
+  {
+    name: "General",
+    price: "₹199",
+    originalPrice: null,
+    description: "Full access to Open Source Day 2025",
+    features: [
+      "Access to all keynote sessions",
+      "Technical talks and workshops",
+      "Networking opportunities",
+      "Conference swag bag",
+      "Digital resources and materials",
+      "Certificate of participation",
+      "Access to community Discord",
+      "Refreshments and lunch included",
+      "Post-event resources"
+    ],
+    popular: true,
+    available: true,
+    konfhubUrl: "https://konfhub.com/open-source-day-2025"
+  },
+  {
+    name: "Sponsor",
+    price: "Contact Us",
+    originalPrice: null,
+    description: "Sponsorship opportunities available",
+    features: [
+      "Brand visibility at the event",
+      "Logo placement on materials",
+      "Booth space for exhibition",
+      "Speaking opportunity",
+      "Access to attendee networking",
+      "Social media promotion",
+      "Post-event report",
+      "Community partnership benefits"
+    ],
+    popular: false,
+    available: true,
+    konfhubUrl: "https://konfhub.com/open-source-day-2025"
+  }
+];
+
+export const VENUE = {
+  name: "Tech Convention Center",
+  address: "1234 Innovation Drive, San Jose, CA 95110",
+  description:
+    "Join us at a premium venue in the heart of the tech hub, designed for collaboration and innovation in the Indian tech ecosystem.",
+  capacity: "500+ attendees across multiple halls",
+  facilities: [
+    "Main auditorium with 300 seats",
+    "3 workshop rooms (50 seats each)",
+    "Networking lounge and exhibition area",
+    "High-speed WiFi throughout",
+    "Professional A/V equipment",
+    "Accessible facilities"
+  ],
+  transport: {
+    parking: "Free parking available. Exit 12A from Highway 101",
+    publicTransit: "VTA Light Rail - Convention Center Station (2 min walk)",
+    airport: "25 minutes from San Jose Airport (SJC)"
+  }
+};
+
+export const FOOTER = {
+  description:
+    "Open Source Day 2025 - A community-driven event celebrating open source innovation. Join developers, maintainers, and enthusiasts for learning and collaboration.",
+  quickLinks: [
+    { name: "Speakers", href: "/speakers" },
+    { name: "Schedule", href: "/schedule" },
+    { name: "Venue", href: "/venue" },
+    { name: "Tickets", href: "/tickets" },
+    { name: "Past Events", href: "/past-events" }
+  ],
+  legal: [
+    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Terms of Service", href: "/terms" },
+    { name: "Code of Conduct", href: "/code-of-conduct" }
+  ],
+  copyright: "© {year} OpenSource Weekend. All rights reserved.",
+  credits: "Made with ❤️ by the OSW community"
+};
+
+export const META = {
+  defaultTitle: "Open Source Day 2025 - Celebrate Innovation",
+  titleTemplate: "%s | Open Source Day 2025",
+  description:
+    "Join the largest open source developer conference of the year. Learn, network, and contribute to the future of technology.",
+  keywords: [
+    "open source",
+    "conference",
+    "developers",
+    "technology",
+    "innovation",
+    "community"
+  ],
+  author: "OpenSource Weekend",
+  twitterCard: "summary_large_image"
+};
