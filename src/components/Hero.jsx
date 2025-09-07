@@ -57,7 +57,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0 bg-white green-border">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0 bg-white green-border pb-8">
       {/* Animated leaf-like background shapes matching the design */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="floating-leaf floating-leaf-1"></div>
@@ -152,13 +152,6 @@ const Hero = () => {
             </h3>
             <p className="text-sm md:text-base text-black">Expert Speakers</p>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-green-400 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-green-400 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>

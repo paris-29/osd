@@ -187,7 +187,8 @@ export const TICKETS = [
     name: "Regular Ticket",
     price: "₹199",
     originalPrice: null,
-    description: "Full-access to conference. Lunch. Keynotes, Panels. OSD Goodies.",
+    description:
+      "Full-access to conference. Lunch. Keynotes, Panels. OSD Goodies.",
     features: [
       "Full-access to conference",
       "Lunch",
@@ -196,13 +197,15 @@ export const TICKETS = [
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56800"
+    konfhubUrl:
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56800"
   },
   {
     name: "Community Fan",
     price: "₹999",
     originalPrice: null,
-    description: "For all our community people who constantly support us and create a vibrant community.",
+    description:
+      "For all our community people who constantly support us and create a vibrant community.",
     features: [
       "Full-access to conference",
       "Lunch",
@@ -213,13 +216,15 @@ export const TICKETS = [
     ],
     popular: true,
     available: true,
-    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56805"
+    konfhubUrl:
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56805"
   },
   {
     name: "Supporter Ticket",
     price: "₹1,999",
     originalPrice: null,
-    description: "For all our community people who constantly support us and create a vibrant community.",
+    description:
+      "For all our community people who constantly support us and create a vibrant community.",
     features: [
       "Full-access to conference",
       "Lunch",
@@ -230,13 +235,15 @@ export const TICKETS = [
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56803"
+    konfhubUrl:
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56803"
   },
   {
     name: "Silver Ticket",
     price: "₹4,999",
     originalPrice: null,
-    description: "For all our community people who constantly support us and create a vibrant community.",
+    description:
+      "For all our community people who constantly support us and create a vibrant community.",
     features: [
       "Full-access to conference",
       "Lunch",
@@ -250,13 +257,15 @@ export const TICKETS = [
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56804"
+    konfhubUrl:
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56804"
   },
   {
     name: "Golden Ticket",
     price: "₹9,999",
     originalPrice: null,
-    description: "For all our community people who constantly support us and create a vibrant community. This Ticket would be considered as a Donation which could be claimed in 80G & 12AA Tax Exemption.",
+    description:
+      "For all our community people who constantly support us and create a vibrant community. This Ticket would be considered as a Donation which could be claimed in 80G & 12AA Tax Exemption.",
     features: [
       "Full-access to conference",
       "Lunch",
@@ -271,13 +280,15 @@ export const TICKETS = [
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56806"
+    konfhubUrl:
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56806"
   },
   {
     name: "Micro Sponsor (Pack of 3 Golden Ticket)",
     price: "₹29,999",
     originalPrice: null,
-    description: "Pack of 3 tickets with company branding and networking. Sponsorship considered as a Donation which could be claimed in 80G & 12AA Tax Exemption.",
+    description:
+      "Pack of 3 tickets with company branding and networking. Sponsorship considered as a Donation which could be claimed in 80G & 12AA Tax Exemption.",
     features: [
       "Full-access to conference",
       "Lunch",
@@ -292,10 +303,10 @@ export const TICKETS = [
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56807"
+    konfhubUrl:
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56807"
   }
 ];
-
 
 export const VENUE = {
   name: "Tech Convention Center",
@@ -418,8 +429,47 @@ export const COMMUNITY_PARTNERS = [
   { name: "Elastic", logo: "/partners/elastic-logo.png", website: "#" },
 
   { name: "gdg", logo: "/partners/gdg.png", website: "#" },
-  { name: "Wordpress", logo: "/partners/wordpress.jpg", website: "#" }
+  { name: "Wordpress", logo: "/partners/wordpress.jpg", website: "#" },
+  {
+    name: "Gdg Rajkot",
+    logo: "/partners/GDG cloud rajkot SVG.svg",
+    website: "#"
+  },
+  {
+    name: "THM",
+    logo: "/partners/THM logo Black Long.png",
+    website: "#"
+  },
+  {
+    name: "grafana",
+    logo: "/partners/Grafana Ahmedabad.png",
+    website: "#"
+  },
+  {
+    name: "adc",
+    logo: "/partners/ADC with White BG - Ahmedabad Developer Club.jpg",
+    website: "#"
+  }
 ];
+
+// Simple tier grouping for display on Home and Sponsors page.
+export const SPONSOR_TIERS = {
+  gold: [
+    { name: "OSCF", logo: "/icons/OSCF.png", website: "#" },
+    { name: "OSW", logo: "/icons/OSDLogo.svg", website: "#" },
+    { name: "OSW", logo: "/icons/OSWFullBlack.svg", website: "#" }
+  ],
+  silver: [
+    { name: "OSCF", logo: "/icons/OSCF.png", website: "#" },
+    { name: "OSW", logo: "/icons/OSDLogo.svg", website: "#" },
+    { name: "OSW", logo: "/icons/OSWFullBlack.svg", website: "#" }
+  ],
+  bronze: [
+    { name: "OSCF", logo: "/icons/OSCF.png", website: "#" },
+    { name: "OSW", logo: "/icons/OSDLogo.svg", website: "#" },
+    { name: "OSW", logo: "/icons/OSWFullBlack.svg", website: "#" }
+  ]
+};
 
 // Add a few extra online sponsor logos for demo
 export const EXTRA_SPONSORS = [
