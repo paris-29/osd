@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Lightweight helper: paste newline-separated logo filenames or CSV and it formats JSON entries
 // It does not upload files. Intended to help maintainers prepare entries for src/config.ts or data files.

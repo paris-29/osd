@@ -1,5 +1,6 @@
-import React from "react";
-
+/**
+ * @param {{sections?: Record<string, {name:string,role?:string,image?:string}[]>}} props
+ */
 function PersonCard({ person }) {
   return (
     <div className="flex items-center space-x-4 p-4 bg-white rounded-lg shadow-sm">

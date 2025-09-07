@@ -1,5 +1,6 @@
-import React from "react";
-
+/**
+ * @param {{sponsors?: {name:string,logo:string}[], columns?: number, maxHeight?: number}} props
+ */
 export default function SponsorsGrid({
   sponsors = [],
   columns = 4,

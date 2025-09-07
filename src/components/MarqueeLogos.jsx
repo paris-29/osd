@@ -1,5 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
+/**
+ * @param {{logos?: any[], duration?: number, height?: number, itemMinWidth?: number}} props
+ */
 export default function MarqueeLogos({
   logos = [],
   duration = 100,
