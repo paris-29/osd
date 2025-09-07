@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { HERO, BRANDING, EVENT } from "../config.ts";
-import Counter from "../components/counter.jsx";
+import Counter from "../components/Counter.jsx";
 
 const Hero = () => {
   const heroRef = useRef(null);
