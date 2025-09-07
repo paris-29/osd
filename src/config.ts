@@ -182,64 +182,118 @@ export const SPEAKERS = [
 
 export const TICKETS = [
   {
-    name: "Student",
-    price: "₹99",
-    originalPrice: "₹199",
-    description: "Special pricing for students with valid ID",
+    name: "Regular Ticket",
+    price: "₹199",
+    originalPrice: null,
+    description: "Full-access to conference. Lunch. Keynotes, Panels. OSD Goodies.",
     features: [
-      "Access to all sessions and talks",
-      "Networking opportunities",
-      "Conference materials",
-      "Certificate of participation",
-      "Access to community channels",
-      "Refreshments and lunch",
-      "Student networking session",
-      "Career guidance session"
+      "Full-access to conference",
+      "Lunch",
+      "Keynotes, Panels",
+      "OSD Goodies"
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/open-source-day-2025"
+    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56800"
   },
   {
-    name: "General",
-    price: "₹199",
+    name: "Community Fan",
+    price: "₹999",
     originalPrice: null,
-    description: "Full access to Open Source Day 2025",
+    description: "For all our community people who constantly support us and create a vibrant community.",
     features: [
-      "Access to all keynote sessions",
-      "Technical talks and workshops",
-      "Networking opportunities",
-      "Conference swag bag",
-      "Digital resources and materials",
-      "Certificate of participation",
-      "Access to community Discord",
-      "Refreshments and lunch included",
-      "Post-event resources"
+      "Full-access to conference",
+      "Lunch",
+      "Keynotes, Panels",
+      "OSD Goodies",
+      "Super Fan Goodies",
+      "Digital Certificate"
     ],
     popular: true,
     available: true,
-    konfhubUrl: "https://konfhub.com/open-source-day-2025"
+    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56805"
   },
   {
-    name: "Sponsor",
-    price: "Contact Us",
+    name: "Supporter Ticket",
+    price: "₹1,999",
     originalPrice: null,
-    description: "Sponsorship opportunities available",
+    description: "For all our community people who constantly support us and create a vibrant community.",
     features: [
-      "Brand visibility at the event",
-      "Logo placement on materials",
-      "Booth space for exhibition",
-      "Speaking opportunity",
-      "Access to attendee networking",
-      "Social media promotion",
-      "Post-event report",
-      "Community partnership benefits"
+      "Full-access to conference",
+      "Lunch",
+      "Keynotes, Panels",
+      "OSD Goodies",
+      "Supporter Exclusive goodies",
+      "Digital Certificate"
     ],
     popular: false,
     available: true,
-    konfhubUrl: "https://konfhub.com/open-source-day-2025"
+    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56803"
+  },
+  {
+    name: "Silver Ticket",
+    price: "₹4,999",
+    originalPrice: null,
+    description: "For all our community people who constantly support us and create a vibrant community.",
+    features: [
+      "Full-access to conference",
+      "Lunch",
+      "Keynotes, Panels",
+      "OSD Goodies",
+      "Silver Ticket Exclusive goodies",
+      "Digital Certificate",
+      "Shout out during the event",
+      "Shout-out on Social Media",
+      "Networking Dinner with Speakers, sponsors, organizers and some special industry invitees"
+    ],
+    popular: false,
+    available: true,
+    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56804"
+  },
+  {
+    name: "Golden Ticket",
+    price: "₹9,999",
+    originalPrice: null,
+    description: "For all our community people who constantly support us and create a vibrant community. This Ticket would be considered as a Donation which could be claimed in 80G & 12AA Tax Exemption.",
+    features: [
+      "Full-access to conference",
+      "Lunch",
+      "Keynotes, Panels",
+      "OSD Goodies",
+      "Golden Ticket Exclusive goodies",
+      "Digital Certificate",
+      "Networking Dinner with Speakers , sponsors , organizers and some special industry invitees",
+      "Shout-out on Social Media",
+      "Shout out during the event",
+      "Appreciation Memento from OSD"
+    ],
+    popular: false,
+    available: true,
+    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56806"
+  },
+  {
+    name: "Micro Sponsor (Pack of 3 Golden Ticket)",
+    price: "₹29,999",
+    originalPrice: null,
+    description: "Pack of 3 tickets with company branding and networking. Sponsorship considered as a Donation which could be claimed in 80G & 12AA Tax Exemption.",
+    features: [
+      "Full-access to conference",
+      "Lunch",
+      "Keynotes, Panels",
+      "OSD Goodies",
+      "Golden Ticket Exclusive goodies",
+      "Digital Certificate",
+      "Networking Dinner with Speakers , sponsors , organizers and some special industry invitees",
+      "Company Branding at relevant places",
+      "Shout-out during the event",
+      "Appreciation Memento from OSD"
+    ],
+    popular: false,
+    available: true,
+    konfhubUrl: "https://konfhub.com/checkout/open-source-day-2025?ticketId=56807"
   }
 ];
+
 
 export const VENUE = {
   name: "Tech Convention Center",
