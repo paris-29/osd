@@ -2,17 +2,39 @@
  * @param {{sections?: Record<string, {name:string,role?:string,image?:string}[]>}} props
  */
 function PersonCard({ person }) {
+  if (person.linkedin) {
+    return (
+      <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className="block h-full">
+        <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-full min-h-[220px]">
+          <img src={person.image} alt={person.name} className="w-28 h-28 rounded-full object-cover mb-4" />
+          <div className="font-semibold">{person.name}</div>
+          {person.roles ? (
+            <div className="text-sm text-gray-600 mt-2">
+              {person.roles.map((r, i) => (
+                <div key={i}>{r}</div>
+              ))}
+            </div>
+          ) : person.role ? (
+            <div className="text-sm text-gray-600 mt-2">{person.role}</div>
+          ) : null}
+        </div>
+      </a>
+    );
+  }
+
   return (
-    <div className="flex items-center space-x-4 p-4 bg-white rounded-lg shadow-sm">
-      <img
-        src={person.image}
-        alt={person.name}
-        className="w-16 h-16 rounded-full object-cover"
-      />
-      <div>
-        <div className="font-semibold">{person.name}</div>
-        <div className="text-sm text-gray-600">{person.role}</div>
-      </div>
+    <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm h-full min-h-[220px]">
+      <img src={person.image} alt={person.name} className="w-28 h-28 rounded-full object-cover mb-4" />
+      <div className="font-semibold">{person.name}</div>
+      {person.roles ? (
+        <div className="text-sm text-gray-600 mt-2">
+          {person.roles.map((r, i) => (
+            <div key={i}>{r}</div>
+          ))}
+        </div>
+      ) : person.role ? (
+        <div className="text-sm text-gray-600 mt-2">{person.role}</div>
+      ) : null}
     </div>
   );
 }

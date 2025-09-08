@@ -444,6 +444,16 @@ export const COMMUNITY_PARTNERS = [
     name: "gujarat jug - full logo",
     logo: "/partners/gujarat jug - full logo.svg",
     website: "#"
+  },
+  {
+    name: "GDG pune",
+    logo: "/partners/GDGPUNE.png",
+    website: "#"
+  },
+  {
+    name: "GDG nashik",
+    logo: "/partners/GDGNashik_logo.png",
+    website: "#"
   }
 ];
 
@@ -488,39 +498,155 @@ export const EXTRA_SPONSORS = [
 export const TEAM = {
   advisory: [
     {
-      name: "Dr. Aisha Patel",
-      role: "AI Research Scientist",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
-    },
-    {
-      name: "James Wilson",
-      role: "Founder of OpenTech",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+      name: "Dr. Rinkesh Bansal",
+      roles: ["Program Director", "Master Inventor at IBM"],
+      linkedin: "https://www.linkedin.com/in/rinkesh-bansal-09798843/",
+      image: "/Advisory Council/Rinkesh Bansal.png"
     }
   ],
   mentors: [
     {
-      name: "Lisa Zhang",
-      role: "Security Engineer",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      name: "Mehul Patel",
+      roles: [
+        "Senior DevOps Engineer",
+        "Mozilla Reps Council",
+        "Docker Captain",
+        "AWS Community Builder",
+        "Google Developer Expert"
+      ],
+      linkedin: "https://www.linkedin.com/in/nomadicmehul/",
+      image: "/Mentor Board/Mehul Patel.jpg"
+    },
+    {
+      name: "Ashish Tiwari",
+      roles: [
+        "Principal Solutions Architect",
+        "Search Specialist @ Elastic India"
+      ],
+      linkedin: "https://www.linkedin.com/in/ashishtiwari93/",
+      image: "/Mentor Board/Ashish Tiwari.jpg"
+    },
+    {
+      name: "Prathamesh Chavan",
+      roles: [
+        "AI Engineering Manager at Red Hat",
+        "Mozilla Reps Council",
+        "3X Wrangler at MozFest"
+      ],
+      linkedin: "https://www.linkedin.com/in/prathameshpchavan/",
+      image: "/Mentor Board/Prathamesh Chavan.jpg"
+    },
+    {
+      name: "Harsh Manvar",
+      roles: ["CNCF Ambassador", "Docker Captain", "Google Developer Expert"],
+      linkedin: "https://www.linkedin.com/in/harsh-manvar-64a30aa3/",
+      image: "/Mentor Board/harsh-manvar-1.avif"
+    },
+    {
+      name: "Nirav Shah",
+      roles: [
+        "Director at Eternal Web Private Limited",
+        "AWS Community Builder"
+      ],
+      linkedin: "https://www.linkedin.com/in/nirav-eternal/",
+      image: "/Mentor Board/Nirav Shah.png"
+    },
+    {
+      name: "Suraj Nath",
+      roles: ["Senior Software Engineer at Grafana Labs"],
+      linkedin: "https://www.linkedin.com/in/electron0zero/",
+      image: "/Mentor Board/Suraj Nath.jpg",
+      hide: true // Hidden for now
+    },
+    {
+      name: "Kalyan Prasad",
+      roles: ["Advisor, Kaggle", "Organizer, PyCon India"],
+      linkedin: "https://www.linkedin.com/in/itskpflow/",
+      image: "/partners/Kalyan-Prasad.jpg",
+      hide: true // Hidden for now (no Mentor Board image available)
+    },
+    {
+      name: "Vishal Rajpurohit",
+      roles: ["CTO, Viitor Cloud", "Organizer Laracon India"],
+      linkedin: "https://www.linkedin.com/in/vishalrajpurohit/",
+      image: "/partners/Vishal-Rajpurohit.jpg",
+      hide: true // Hidden for now
+    },
+    {
+      name: "Ram Iyenger",
+      roles: ["Chief Evangelist at Cloud Foundry Foundation"],
+      linkedin: "https://www.linkedin.com/in/ram-iyengar/",
+      image: "/partners/Ram-Iyenger.jpg",
+      hide: true // Hidden for now
+    },
+    {
+      name: "Santosh Yadav",
+      roles: ["Staff Engineer, Celonis"],
+      linkedin: "https://www.linkedin.com/in/santoshyadavdev/",
+      image: "/partners/Santosh-Yadav.jpg",
+      hide: true // Hidden for now
     }
   ],
   core: [
     {
-      name: "Chavda Rohit",
-      role: "Lead Developer",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      name: "Viral Parmar",
+      roles: [
+        "Director - Open Source Community Foundation",
+        "Director - ComExpo Cyber Security Foundation",
+        "Community Manager at The Hackers Meetup",
+        "Co-organizer at Open Source Weekend"
+      ],
+      linkedin: "https://www.linkedin.com/in/viral-parmar-8402a04a/",
+      image: "/Core Team/Viral ParmarDP.jpg"
+    },
+    {
+      name: "Neel Shah",
+      roles: [
+        "Developer Advocate at Middleware",
+        "Co-organizer at Open Source Weekend"
+      ],
+      linkedin: "https://www.linkedin.com/in/neelcshah/",
+      image: "/Core Team/Neel Shah.jpeg"
+    },
+    {
+      name: "Dhaval Desai",
+      roles: ["Product Manager at Gluu"],
+      linkedin: "https://www.linkedin.com/in/dhavaltdesai/",
+      image: "/Core Team/Dhaval Desai.jpg"
+    },
+    {
+      name: "Bhargav Pithva",
+      roles: ["Technical Project Manager at Rysun Labs"],
+      linkedin: "https://www.linkedin.com/in/bhargavpithva/",
+      image: "/Core Team/Bhargav Pithva.jpg"
+    },
+    {
+      name: "Tanvir Dhanani",
+      roles: ["Backend Developer at IBM"],
+      linkedin: "https://www.linkedin.com/in/dhanani-tanvir-aa4076118/",
+      image: "/Core Team/IMG_20250728_214844 - Dhanani Tanvir.jpg"
+    },
+    {
+      name: "Jignesh Gadhavi",
+      roles: [
+        "Senior DevOps Engineer at Yellow Panther",
+        "Co-organizer at GDG Cloud Gandhinagar"
+      ],
+      linkedin: "https://www.linkedin.com/in/jigneshkumar-gadhavi/",
+      image: "/Core Team/Jignesh Gadhavi.jpeg"
+    },
+    {
+      name: "Falgun Bhalsod",
+      roles: ["DevOps Engineer at Yellow Panther"],
+      linkedin: "https://www.linkedin.com/in/falgunbhalsod/",
+      image: "/Core Team/Falgun Bhalsod.jpeg"
     }
   ],
   volunteers: [
     {
-      name: "Community Volunteer",
-      role: "Volunteer",
-      image: "/icons/OSDLogoNoText.svg"
+      name: "Chavda Rohit",
+      role: "Website Engineer",
+      image: "/Volunteer/Rohit_chavda.jpg"
     }
   ]
 };
