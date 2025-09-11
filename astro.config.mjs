@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { SITE } from '@/config';
+import { SITE } from './src/config';
 
 import tailwindcss from '@tailwindcss/vite';
 
