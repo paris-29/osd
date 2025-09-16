@@ -96,6 +96,7 @@ import GithubIcon from "@/assets/icons/github.svg";
 import DiscordIcon from "@/assets/icons/discord.svg";
 import Mail from "@/assets/icons/mail.svg";
 import Phone from "@/assets/icons/phone.svg";
+import SOU from "@/assets/partners/Silver Oak University.png";
 
 export const SITE = {
   title: "2025 OpenSourceDay",
@@ -277,7 +278,7 @@ export const EVENT = {
     speakers: "20+",
     workshops: "15+",
     sponsors: "20+",
-    communityPartners: "40+"
+    communityPartners: "40+",
   },
 };
 
@@ -546,7 +547,7 @@ export const TICKETS = [
     availableTill: "20th Sep 2025, 06:00 PM (GMT+05:30)",
     popular: false,
     available: true,
-    fillingFast: true,     
+    fillingFast: true,
     konfhubUrl:
       "https://konfhub.com/checkout/open-source-day-2025?ticketId=56932",
   },
@@ -821,6 +822,13 @@ export const SPONSORS = [
   },
 ];
 
+export const VENUE_PARTNER = [
+  {
+    name: "Silver Oak University",
+    logo: SOU.src,
+    website: "#",
+  },
+];
 export const COMMUNITY_PARTNERS = [
   {
     name: "DevOops 1",

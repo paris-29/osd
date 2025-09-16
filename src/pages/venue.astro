@@ -7,6 +7,8 @@ import "@/styles/global.css";
 import Location from "@/assets/icons/location.svg";
 import CalendarClock from "@/assets/icons/calendarClock.svg";
 import LayoutList from "@/assets/icons/layoutList.svg";
+import SOU from "@/assets/partners/Silver Oak University.png";
+import { Image } from "astro:assets";
 ---
 
 <Layout title="Venue — 2025 OSD">
@@ -18,22 +20,7 @@ import LayoutList from "@/assets/icons/layoutList.svg";
     <div
       class="max-w-6xl mx-auto bg-gradient-to-r from-green-50 to-emerald-50 border border-green-100 rounded-3xl shadow-md flex flex-col md:flex-row items-center gap-6 p-6 md:p-10"
     >
-      <div
-        class="flex-shrink-0 flex items-center justify-center w-20 h-20 bg-green-500 rounded-full"
-      >
-        <!-- You can replace this with the SOU logo if available -->
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 40 40"
-          class="w-12 h-12 text-white"
-        >
-          <rect width="40" height="40" rx="20" fill="currentColor"></rect>
-          <path
-            d="M20 12l8 4-8 4-8-4 8-4zm0 6.5l6.93-3.47A1 1 0 0026 14.13l-6 3-6-3a1 1 0 00-.93 1.9L20 18.5z"
-            fill="#A7F3D0"></path>
-        </svg>
-      </div>
+      <Image src={SOU} class="w-60" alt="Silver Oak University" />
       <div>
         <h2 class="text-2xl md:text-3xl font-bold text-green-700 mb-3">
           Silver Oak University (SOU)
@@ -42,12 +29,12 @@ import LayoutList from "@/assets/icons/layoutList.svg";
           Silver Oak University (SOU) is a premier private university,
           continuing the legacy of the Silver Oak Group of Institutes. Guided by
           its motto,
-          <span class="italic">“Gyanam Param Bhushanam”</span> (“Knowledge is
-          the highest virtue”), SOU offers a dynamic and inspiring environment
-          for tech enthusiasts. The state-of-the-art campus features a
-          futuristic curriculum, advanced technology, eminent faculty, strong
-          industry-academia connections, and ample career opportunities - making
-          it the perfect venue for innovation and collaboration.
+          <span class="italic">“Gyanam Param Bhushanam”</span> (“Knowledge is the
+          highest virtue”), SOU offers a dynamic and inspiring environment for tech
+          enthusiasts. The state-of-the-art campus features a futuristic curriculum,
+          advanced technology, eminent faculty, strong industry-academia connections,
+          and ample career opportunities - making it the perfect venue for innovation
+          and collaboration.
         </p>
       </div>
     </div>
@@ -83,8 +70,8 @@ import LayoutList from "@/assets/icons/layoutList.svg";
                 rel="noopener"
                 class="text-green-700">Silver Oak University</a
               ><br />
-               370/371, near Bhavik Publication, Gota Gam, Gota, Ahmedabad,
-              Gujarat 382481<br />
+              370/371, near Bhavik Publication, Gota Gam, Gota, Ahmedabad, Gujarat
+              382481<br />
             </p>
           </div>
         </div>
@@ -98,7 +85,7 @@ import LayoutList from "@/assets/icons/layoutList.svg";
             <h3 class="text-lg font-semibold text-black mb-1">Date & Time</h3>
             <p class="text-gray-700">
               October 05, 2025<br />
-               9:00 AM - 6:00 PM<br />
+              9:00 AM - 6:00 PM<br />
               <span class="text-sm text-gray-500">Full day event</span>
             </p>
           </div>
