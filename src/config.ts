@@ -265,7 +265,6 @@ export const eventSchedule = [
   },
 ];
 
-
 export const workshopSchedule = [
   {
     time: "09:30 AM - 10:00 AM",
@@ -349,7 +348,6 @@ export const workshopSchedule = [
     end: "20251005T171500",
   },
 ];
-
 
 export const BRANDING = {
   logos: {
@@ -1000,8 +998,18 @@ export const SPONSORS = [
 
 export const VENUE_PARTNER = [
   {
+    id: 1,
     name: "Silver Oak University",
     logo: SOU.src,
+    website: "#",
+  },
+];
+
+export const EVENT_PARTNER = [
+  {
+    id: 1,
+    name: "Elastic India",
+    logo: "/partners/elastic.png",
     website: "#",
   },
 ];
@@ -1549,8 +1557,8 @@ export const TEAM = {
     {
       id: 1,
       name: "Abhishek Singh",
-      roles: ["AI System Developer"],
-      linkedin: "https://www.linkedin.com/in/abhishek7x",
+      roles: ["Generalist"],
+      linkedin: "https://abhishe.com",
       image: AbhishekSingh,
     },
     {
@@ -1657,7 +1665,7 @@ export const TEAM = {
 export const PastEvent = [
   {
     year: "2025",
-    title: "Open Source Weekend - Product Collective - May 2025",
+    title: "OpenSourceWeekend: Product Collective (May 2025)",
     images: [
       OSWMay_1,
       OSWMay_2,
@@ -1672,12 +1680,12 @@ export const PastEvent = [
   },
   {
     year: "2025",
-    title: "OSW-Product Collective - April 2025",
+    title: "OpenSourceWeekend: Product Collective (April 2025)",
     images: [OSWApril_1, OSWApril_2, OSWApril_3, OSWApril_4],
   },
   {
     year: "2024",
-    title: "OSW-Day × Hacktoberfest 2024",
+    title: "2024 OpenSourceWeekend × Hacktoberfest",
     images: [
       OSW24_1,
       OSW24_2,
@@ -1698,7 +1706,7 @@ export const PastEvent = [
   },
   {
     year: "2023",
-    title: "OSW-June 2023",
+    title: "Open Source Talks (June 2023)",
     images: [
       OSWJune23_1,
       OSWJune23_2,
@@ -1714,7 +1722,7 @@ export const PastEvent = [
   },
   {
     year: "2023",
-    title: "OSW-Day 2023",
+    title: "2023 OpenSourceWeekend × Hacktoberfest",
     images: [
       OSW23_1,
       OSW23_2,
