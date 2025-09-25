@@ -372,7 +372,7 @@ export const EVENT = {
   name: "Open Source Day 2025",
   shortName: "OSD2025",
   date: "October 05, 2025",
-  location: "Tech Convention Center, San Jose",
+  location: "Silver Oak University, Ahmedabad, Gujarat, India",
   tagline:
     "Join the largest open source developer conference of the year. Learn, network, and contribute to the future of technology.",
   description:
@@ -394,6 +394,7 @@ export const NAVIGATION = {
     { name: "Tickets", href: "/tickets" },
     { name: "Sponsors", href: "/sponsors" },
     { name: "Venue", href: "/venue" },
+    { name: "Badge", href: "/badge" },
     { name: "Past Events", href: "/past-events" },
   ],
   cta: {
@@ -942,6 +943,7 @@ export const FOOTER = {
     { name: "Schedule", href: "/schedule" },
     { name: "Venue", href: "/venue" },
     { name: "Tickets", href: "/tickets" },
+    { name: "My Badge", href: "/my-badge" },
     { name: "Past Events", href: "/past-events" },
   ],
   legal: [
