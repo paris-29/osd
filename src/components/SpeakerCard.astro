@@ -9,6 +9,7 @@ export interface Props {
   presentationTitle: string;
   event?: string;
   width: number;
+  link?: string;
   image: ImageMetadata;
   class?: string;
 }
@@ -20,6 +21,7 @@ const {
   presentationTitle,
   event,
   image,
+  link = "",
   width = 400,
   class: className,
 } = Astro.props;
@@ -27,48 +29,50 @@ const {
 
 <div
   class:list={[
-    "max-w-xs bg-green-100 shadow-green-100 rounded-2xl shadow-lg overflow-hidden border outline-1",
+    "max-w-xs bg-green-100 shadow-green-100 rounded-2xl shadow-lg overflow-hidden border-2",
     className,
   ]}
 >
-  <div class="w-full aspect-[3/4] overflow-hidden">
-    <Image
-      src={image}
-      alt={name}
-      width={width}
-      class="w-full h-full object-cover"
-      ,
-      loading="lazy"
-    />
-  </div>
+  <a href={link}>
+    <div class="w-full aspect-[3/4] overflow-hidden">
+      <Image
+        src={image}
+        alt={name}
+        width={width}
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+    </div>
 
-  <div class="p-4 space-y-2">
-    <h3 class="text-xl font-semibold text-gray-900">{name}</h3>
-    {
-      position && company && (
-        <p class="text-sm text-gray-600">
-          <span>{position}</span>,<span class="font-bold"> {company}</span>
-        </p>
-      )
-    }
-
-    <dl class="mt-3 space-y-2">
+    <div>
+      <h3 class="text-xl px-4 py-3 border-t-2 font-bold text-gray-900">
+        {name}
+      </h3>
       {
-        presentationTitle === "TBD" ? (
-          ""
-        ) : (
-          <div>
-            {event && (
-              <dt class="text-xs rounded-full bg-green-200 px-2 inline text-gray-800">
-                {event}
-              </dt>
-            )}
-            <dd class="text-sm font-medium text-gray-700">
-              {presentationTitle}
-            </dd>
-          </div>
+        position && company && (
+          <p class="text-sm px-4 text-gray-900">
+            <span>{position}</span>,<span class="font-bold"> {company}</span>
+          </p>
         )
       }
-    </dl>
-  </div>
+
+      <dl class="p-4">
+        {
+          event && (
+            <dt class="text-xs rounded-t-xl bg-green-200 px-2 py-1 border-2 inline text-gray-800">
+              {event}
+            </dt>
+          )
+        }
+        <br />
+        {
+          presentationTitle && (
+            <dd class="text-sm font-medium text-gray-800 inline-block min-w-full min-h-full rounded-b-xl rounded-tr-xl border-2  px-2 py-1 bg-green-300">
+              {presentationTitle}
+            </dd>
+          )
+        }
+      </dl>
+    </div>
+  </a>
 </div>
