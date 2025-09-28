@@ -18,44 +18,42 @@ const pastSpeakers = SPEAKERS.filter((s) => s.eventYear < OSD_YEAR);
 
   <!-- Current Year Speakers -->
   <section class="pb-10 px-4">
-    <div class="max-w-7xl mx-auto my-10">
+    <div class="max-w-7xl mx-auto my-4">
       {
         CURRENT_SPEAKERS.map((event) => (
-          <>
-            <div class="my-5">
-              <h2 class="text-4xl font-bold text-left pl-4 mb-12">
-                <span class="gradient-text">{event.eventName}</span>
-                <span class="text-lg block text-green-500">
-                  {`At ${event.venue} (${event.date})`}
-                </span>
-              </h2>
-              <div class="container mx-auto px-4 pb-10">
-                {event?.speakers && (
-                  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center lg:grid-cols-4 gap-8">
-                    {event.speakers.map((speaker) => (
-                      <SpeakerCard width={400} {...speaker} />
-                    ))}
-                  </div>
-                )}
-                {event?.sections && (
-                  <div>
-                    {event.sections.map((section) => (
-                      <div class="flex flex-col my-5">
-                        <h3 class="text-xl font-bold text-gray-700 mb-5">
-                          {section.title}
-                        </h3>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center lg:grid-cols-4 gap-8">
-                          {section.speakers.map((speaker) => (
-                            <SpeakerCard width={400} {...speaker} />
-                          ))}
-                        </div>
+          <div class="mb-5">
+            <h2 class="text-4xl font-bold text-left pl-4 mb-12">
+              <span class="gradient-text">{event.eventName}</span>
+              <span class="text-lg block text-green-500">
+                {`At ${event.venue} (${event.date})`}
+              </span>
+            </h2>
+            <div class="container mx-auto px-4 pb-10">
+              {event?.speakers && (
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center lg:grid-cols-4 gap-8">
+                  {event.speakers.map((speaker) => (
+                    <SpeakerCard width={400} {...speaker} />
+                  ))}
+                </div>
+              )}
+              {event?.sections && (
+                <div>
+                  {event.sections.map((section) => (
+                    <div class="flex flex-col my-5">
+                      <h3 class="text-xl font-bold text-gray-700 mb-5">
+                        {section.title}
+                      </h3>
+                      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center lg:grid-cols-4 gap-8">
+                        {section.speakers.map((speaker) => (
+                          <SpeakerCard width={400} {...speaker} />
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                )}
-              </div>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
-          </>
+          </div>
         ))
       }
     </div>
@@ -93,7 +91,7 @@ const pastSpeakers = SPEAKERS.filter((s) => s.eventYear < OSD_YEAR);
       </p>
       <a
         href="https://forms.gle/1snXWPXU63xHBMAB6"
-        class="inline-block bg-green-500 drop-shadow-2xl hover:bg-green-400 text-black px-8 py-4 rounded-full font-bold text-lg transition-all duration-200 glow-effect hover:scale-105 transform"
+        class="inline-block bg-green-500 drop-shadow-2xl hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-200 glow-effect hover:scale-105 transform"
       >
         Submit Your Proposal
       </a>

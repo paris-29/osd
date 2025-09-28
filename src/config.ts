@@ -55,6 +55,8 @@ import KiranTrivedi from "@/assets/speakers/kiran_trivedi.jpeg";
 import ShreyanMehta from "@/assets/speakers/shreyan_mehta.jpeg";
 import ChetanSoni from "@/assets/speakers/chetan_soni.jpg";
 import Someshwaran from "@/assets/speakers/someshwaran.png";
+import AnshArora from "@/assets/speakers/AnshArora.jpeg";
+import PratikBhatt from "@/assets/speakers/PratikBhatt.jpg";
 
 import PersonImg from "@/assets/speakers/PersonImg.webp";
 
@@ -544,38 +546,6 @@ export const ABOUT = {
 
 export const CURRENT_SPEAKERS = [
   {
-    eventName: "Open Source with AI: Workshop",
-    date: "27th Sept 2025",
-    venue: "Aubergine",
-    speakers: [
-      {
-        name: "Ashish Patel",
-        position: "Senior Principal Architect AI/ML& DS",
-        company: "Oracle",
-        presentationTitle: "Creating AI Agents for Open Source Projects",
-        linkedin: "https://www.linkedin.com/in/ashishpatel2604/",
-        image: AshishPatel,
-      },
-      {
-        name: "Dhaval Desai",
-        position: "Community manager & Maintainer",
-        company: "Gluu Inc",
-        presentationTitle:
-          "How to Start an Open Source Project & Manage like a Pro",
-        linkedin: "https://www.linkedin.com/in/dhavaltdesai/",
-        image: DhavalDesai,
-      },
-      {
-        name: "Shreyan Mehta",
-        position: "CEO",
-        company: "Asambhav Solutions",
-        presentationTitle: "Let's build agents using Google adk",
-        linkedin: "https://www.linkedin.com/in/devsm/",
-        image: ShreyanMehta,
-      },
-    ],
-  },
-  {
     eventName: "Open Source Day",
     date: "5th Oct 2025",
     venue: "Silver Oak University",
@@ -617,6 +587,15 @@ export const CURRENT_SPEAKERS = [
             linkedin: "https://www.linkedin.com/in/somdevsupport/",
             image: Someshwaran,
           },
+          {
+            name: "Ansh Arora",
+            position: "Program and Partnerships Manager",
+            company: "FOSS United",
+            presentationTitle:
+              "Significance of Open Source Projects and its sustainability",
+            linkedin: "https://www.linkedin.com/in/ansharora28/",
+            image: AnshArora,
+          },
         ],
       },
       {
@@ -636,12 +615,12 @@ export const CURRENT_SPEAKERS = [
         title: "Community Panel",
         speakers: [
           {
-            name: "TBD",
-            position: "TBD",
-            company: "TBD",
-            presentationTitle: "TBD",
-            linkedin: "https://www.linkedin.com",
-            image: PersonImg,
+            name: "Pratik Bhatt",
+            position: " HOD Wordpress",
+            company: "Addweb Solution",
+            presentationTitle: "Wordpress Ahmedabad Community",
+            linkedin: "https://www.linkedin.com/in/pratik-bhatt-csm-64722416/",
+            image: PratikBhatt,
           },
         ],
       },
@@ -657,6 +636,38 @@ export const CURRENT_SPEAKERS = [
             image: PersonImg,
           },
         ],
+      },
+    ],
+  },
+  {
+    eventName: "Open Source with AI: Workshop",
+    date: "27th Sept 2025",
+    venue: "Aubergine",
+    speakers: [
+      {
+        name: "Ashish Patel",
+        position: "Senior Principal Architect AI/ML& DS",
+        company: "Oracle",
+        presentationTitle: "Creating AI Agents for Open Source Projects",
+        linkedin: "https://www.linkedin.com/in/ashishpatel2604/",
+        image: AshishPatel,
+      },
+      {
+        name: "Dhaval Desai",
+        position: "Community manager & Maintainer",
+        company: "Gluu Inc",
+        presentationTitle:
+          "How to Start an Open Source Project & Manage like a Pro",
+        linkedin: "https://www.linkedin.com/in/dhavaltdesai/",
+        image: DhavalDesai,
+      },
+      {
+        name: "Shreyan Mehta",
+        position: "CEO",
+        company: "Asambhav Solutions",
+        presentationTitle: "Let's build agents using Google adk",
+        linkedin: "https://www.linkedin.com/in/devsm/",
+        image: ShreyanMehta,
       },
     ],
   },
