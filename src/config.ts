@@ -33,6 +33,18 @@ import RutviPatel from "@/assets/team/RutviPatel.jpg";
 import SanketTank from "@/assets/team/SanketTank.jpg";
 import StavanMehta from "@/assets/team/StavanMehta.jpg";
 import YashNanda from "@/assets/team/YashNanda.jpg";
+import AmitRana from "@/assets/team/AmitRana.jpg";
+import DhwanitMistry from "@/assets/team/DhwanitMistry.jpg";
+import DilipLuhar from "@/assets/team/DilipLuhar.jpg";
+import HarshilShah from "@/assets/team/HarshilShah.jpg";
+import JayDobariya from "@/assets/team/JayDobariya.jpg";
+import JayrajRathod from "@/assets/team/JayrajRathod.jpg";
+import KajalSangani from "@/assets/team/KajalSangani.jpeg";
+import KunjanAtara from "@/assets/team/KunjanAtara.jpg";
+import MeetRaval from "@/assets/team/MeetRaval.jpg";
+import ShabbirAli from "@/assets/team/ShabbirAli.jpg";
+import ShailShah from "@/assets/team/ShailShah.jpg";
+import ShyamRughani from "@/assets/team/ShyamRughani.jpeg";
 
 import SantoshYadav from "@/assets/team/SantoshYadav.webp";
 import VishalRajpurohit from "@/assets/team/VishalRajpurohit.webp";
@@ -1767,15 +1779,8 @@ export const TEAM = {
       image: RohitChavda,
     },
     {
-      id: 10,
-      name: "Ronit Gandhi",
-      roles: ["Student"],
-      linkedin: "https://www.linkedin.com/in/ronitgandhi08/",
-      image: RonitGandhi,
-    },
-    {
       id: 11,
-      name: "Rutvi Patel",
+      name: "Rutvi Shiroya",
       roles: ["Business Growth Partner"],
       linkedin: "https://www.linkedin.com/in/rutvi-shiroya-898593203/",
       image: RutviPatel,
@@ -1807,6 +1812,106 @@ export const TEAM = {
       roles: ["Technical Implementation Specialist and Developer"],
       linkedin: "https://www.linkedin.com/in/biraj2692",
       image: BirajDesai,
+    },
+    {
+      id: 15,
+      name: "Ronit Gandhi",
+      roles: ["Software Engineer & Sys Admin"],
+      linkedin: "https://in.linkedin.com/in/ronitgandhi08",
+      image: RonitGandhi,
+    },
+    {
+      id: 16,
+      name: "Amit Rana",
+      roles: ["System Administrator"],
+      linkedin: "https://www.linkedin.com/in/amit-rana-544814156",
+      image: AmitRana,
+    },
+    {
+      id: 17,
+      name: "Meet Raval",
+      roles: ["Software Developer"],
+      linkedin: "https://www.linkedin.com/in/meetraval0908/",
+      image: MeetRaval,
+    },
+
+    {
+      id: 18,
+      name: "Kunjan Atara",
+      roles: ["UI/UX Designer"],
+      linkedin: "https://www.linkedin.com/in/kunjan-thakkar-atara-768b86107/",
+      image: KunjanAtara,
+    },
+    {
+      id: 19,
+      name: "Harshil Shah",
+      roles: ["Technical Support Engineer"],
+      linkedin: "https://www.linkedin.com/in/harshil-shah-ba20721b6/",
+      image: HarshilShah,
+    },
+
+    {
+      id: 20,
+      name: "Kajal Sangani",
+      roles: ["Senior Software Developer"],
+      linkedin: "https://www.linkedin.com/in/kajal-sangani/",
+      image: KajalSangani,
+    },
+
+    {
+      id: 21,
+      name: "Dhwanit Mistry",
+      roles: ["Student"],
+      linkedin: "https://www.linkedin.com/in/dhwanit-mistry-b83772270/",
+      image: DhwanitMistry,
+    },
+
+    {
+      id: 22,
+      name: "Jay Dobariya",
+      roles: ["Python Developer"],
+      linkedin: "https://www.linkedin.com/in/jay-dobariya-3208b8218",
+      image: JayDobariya,
+    },
+
+    {
+      id: 23,
+      name: "Jayraj Rathod",
+      roles: ["Cyber Security Analyst"],
+      linkedin: "https://www.linkedin.com/in/jayraj-rathod-352496240/",
+      image: JayrajRathod,
+    },
+
+    {
+      id: 24,
+      name: "Dilip Luhar",
+      roles: ["Sr. Backend Developer"],
+      linkedin: "https://www.linkedin.com/in/dilip-luhar-3a037272/",
+      image: DilipLuhar,
+    },
+
+    {
+      id: 25,
+      name: "Shail Shah",
+      roles: ["Software Engineer"],
+      linkedin: "https://www.linkedin.com/in/shail-shah-95550a225/",
+      image: ShailShah,
+    },
+
+    {
+      id: 26,
+      name: "Shyam Rughani",
+      roles: ["DevOps Enigneer"],
+      linkedin: "https://www.linkedin.com/in/shyam-rughani-45225a1a7/",
+      image: ShyamRughani,
+    },
+
+    {
+      id: 27,
+      name: "Shabbir Ali",
+      roles: ["DevSecOps Engineer"],
+      linkedin: "https://www.linkedin.com/in/shabbirali-khanusiya-52652553/",
+      image: ShabbirAli,
     },
   ],
 };
