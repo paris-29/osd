@@ -805,9 +805,10 @@ export const TICKETS = [
   {
     name: "Regular Ticket",
     price: "₹499",
-    originalPrice: null,
+    discountedPrice: "₹199",
+    couponCode: "OSDLOVE",
     description:
-      "Tickets include full-access to conference, lunch, keynotes, panels, OSD goodies.",
+      "Tickets include full-access to conference, lunch, keynotes, panels, OSD goodies. Use the below code to get flat 60% off.",
     features: [
       "Full-access to conference",
       "Lunch",
