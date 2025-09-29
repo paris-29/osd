@@ -805,6 +805,7 @@ export const TICKETS = [
   {
     name: "Regular Ticket",
     price: "₹499",
+    originalPrice: null,
     discountedPrice: "₹199",
     couponCode: "OSDLOVE",
     description:
