@@ -75,6 +75,7 @@ import ChinmayShah from "@/assets/speakers/ChinmayShah.jpeg";
 import ChetanSheladiya from "@/assets/speakers/ChetanSheladiya.png";
 import BhavikaPatel from "@/assets/speakers/BhavikaPatel.png";
 import ParthPandya from "@/assets/speakers/ParthPandya.png";
+import JayThakkar from "@/assets/speakers/JayThakkar.jpg";
 
 import PersonImg from "@/assets/speakers/PersonImg.webp";
 
@@ -695,12 +696,24 @@ export const CURRENT_SPEAKERS = [
         segment: "Devrooms",
         speakers: [
           {
-            name: "TBD",
-            position: "TBD",
-            company: "TBD",
-            presentationTitle: "TBD",
-            link: "https://www.linkedin.com",
-            image: PersonImg,
+            name: "Jay Thakkar",
+            position: "AI Engineer",
+            company: "Impulsive Web",
+            event: "Devrooms",
+            presentationTitle:
+              "Gemini CLI: The All-Round Developer Friend in the Terminal",
+            link: "https://www.linkedin.com/in/akajammythakkar/",
+            image: JayThakkar,
+          },
+          {
+            name: "Someshwaran Mohan Kumar",
+            position: "Developer Advocate",
+            company: "Elastic India",
+            event: "Devrooms",
+            presentationTitle:
+              "Hands-On Workshop: Data Ingestion, ES|QL Processing, and Nginx Dashboards with Elasticsearch",
+            link: "https://www.linkedin.com/in/somdevsupport/",
+            image: Someshwaran,
           },
         ],
       },
@@ -709,7 +722,7 @@ export const CURRENT_SPEAKERS = [
   {
     eventName: "Open Source with AI: Workshop",
     date: "27th Sept 2025",
-    venue: "Aubergine",
+    venue: "Aubergine Solutions",
     speakers: [
       {
         name: "Ashish Patel",
