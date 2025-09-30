@@ -45,6 +45,8 @@ import MeetRaval from "@/assets/team/MeetRaval.jpg";
 import ShabbirAli from "@/assets/team/ShabbirAli.jpg";
 import ShailShah from "@/assets/team/ShailShah.jpg";
 import ShyamRughani from "@/assets/team/ShyamRughani.jpeg";
+import BharatMakwana from "@/assets/team/BharatMakwana.webp";
+import PrashantBhavsar from "@/assets/team/PrashantBhavsar.webp";
 
 import SantoshYadav from "@/assets/team/SantoshYadav.webp";
 import VishalRajpurohit from "@/assets/team/VishalRajpurohit.webp";
@@ -145,14 +147,14 @@ export const SITE = {
     "OpenSourceDay is all about giving back to the open source projects, sharpening your skills, and celebrating all things open source. Join us for a day!",
   website: "https://osd.opensourceweekend.org",
   ogImage: "https://osd.opensourceweekend.org/images/Viral_Parmar_Stage.jpg",
-  icon: "@/assets/icons/OSDGreen.svg",
+  icon: "@/assets/icons/OSDGreen.svg"
 };
 
 export const fullEvent = {
   title: "Open Source Day 2025",
   room: "VENUE - TBA Ahmedabad",
   start: "20251005T080000",
-  end: "20251005T173000",
+  end: "20251005T173000"
 };
 
 export const eventSchedule = [
@@ -163,7 +165,7 @@ export const eventSchedule = [
     type: "registration",
     room: "Lobby",
     start: "20251005T080000",
-    end: "20251005T093000",
+    end: "20251005T093000"
   },
   {
     time: "09:30 AM - 10:00 AM",
@@ -172,7 +174,7 @@ export const eventSchedule = [
     type: "activity",
     room: "Main Auditorium",
     start: "20251005T093000",
-    end: "20251005T100000",
+    end: "20251005T100000"
   },
   {
     time: "10:00 AM - 10:15 AM",
@@ -181,7 +183,7 @@ export const eventSchedule = [
     type: "opening",
     room: "Main Auditorium",
     start: "20251005T100000",
-    end: "20251005T101500",
+    end: "20251005T101500"
   },
   {
     time: "10:15 AM - 10:45 AM",
@@ -190,7 +192,7 @@ export const eventSchedule = [
     type: "keynote",
     room: "Main Auditorium",
     start: "20251005T101500",
-    end: "20251005T104500",
+    end: "20251005T104500"
   },
   {
     time: "10:45 AM - 11:30 AM",
@@ -199,7 +201,7 @@ export const eventSchedule = [
     type: "talk",
     room: "Main Auditorium",
     start: "20251005T104500",
-    end: "20251005T113000",
+    end: "20251005T113000"
   },
   {
     time: "11:30 AM - 12:15 PM",
@@ -208,7 +210,7 @@ export const eventSchedule = [
     type: "talk",
     room: "Main Auditorium",
     start: "20251005T113000",
-    end: "20251005T121500",
+    end: "20251005T121500"
   },
   {
     time: "11:30 AM - 1:00 PM",
@@ -217,7 +219,7 @@ export const eventSchedule = [
     type: "talk",
     room: "Secondary Hall",
     start: "20251005T113000",
-    end: "20251005T010000",
+    end: "20251005T010000"
   },
   {
     time: "12:15 PM - 01:00 PM",
@@ -226,7 +228,7 @@ export const eventSchedule = [
     type: "panel",
     room: "Main Auditorium",
     start: "20251005T121500",
-    end: "20251005T130000",
+    end: "20251005T130000"
   },
   {
     time: "01:00 PM - 02:00 PM",
@@ -235,7 +237,7 @@ export const eventSchedule = [
     type: "break",
     room: "Food Court",
     start: "20251005T130000",
-    end: "20251005T140000",
+    end: "20251005T140000"
   },
   {
     time: "02:00 PM - 02:45 PM",
@@ -244,7 +246,7 @@ export const eventSchedule = [
     type: "talk",
     room: "Main Auditorium",
     start: "20251005T140000",
-    end: "20251005T144500",
+    end: "20251005T144500"
   },
   {
     time: "02:00 PM - 03:30 PM",
@@ -253,7 +255,7 @@ export const eventSchedule = [
     type: "talk",
     room: "Secondary Hall",
     start: "20251005T140000",
-    end: "20251005T153000",
+    end: "20251005T153000"
   },
   {
     time: "02:45 PM - 03:30 PM",
@@ -262,7 +264,7 @@ export const eventSchedule = [
     type: "talk",
     room: "Main Auditorium",
     start: "20251005T144500",
-    end: "20251005T153000",
+    end: "20251005T153000"
   },
   {
     time: "03:30 PM - 04:15 PM",
@@ -271,7 +273,7 @@ export const eventSchedule = [
     type: "panel",
     room: "Main Auditorium",
     start: "20251005T153000",
-    end: "20251005T161500",
+    end: "20251005T161500"
   },
   {
     time: "04:15 PM - 04:45 PM",
@@ -280,7 +282,7 @@ export const eventSchedule = [
     type: "keynote",
     room: "Main Auditorium",
     start: "20251005T161500",
-    end: "20251005T164500",
+    end: "20251005T164500"
   },
   {
     time: "04:45 PM - 05:00 PM",
@@ -289,7 +291,7 @@ export const eventSchedule = [
     type: "closing",
     room: "Main Auditorium",
     start: "20251005T164500",
-    end: "20251005T170000",
+    end: "20251005T170000"
   },
   {
     time: "05:00 PM - 05:30 PM",
@@ -298,8 +300,8 @@ export const eventSchedule = [
     type: "social",
     room: "Exhibition Hall",
     start: "20251005T170000",
-    end: "20251005T173000",
-  },
+    end: "20251005T173000"
+  }
 ];
 
 export const workshopSchedule = [
@@ -310,7 +312,7 @@ export const workshopSchedule = [
     type: "activity",
     room: "",
     start: "20251005T093000",
-    end: "20251005T100000",
+    end: "20251005T100000"
   },
   {
     time: "10:00 AM - 11:30 AM",
@@ -319,7 +321,7 @@ export const workshopSchedule = [
     type: "workshop",
     room: "",
     start: "20251005T100000",
-    end: "20251005T113000",
+    end: "20251005T113000"
   },
   {
     time: "11:30 AM - 1:00 PM",
@@ -328,7 +330,7 @@ export const workshopSchedule = [
     type: "workshop",
     room: "",
     start: "20251005T113000",
-    end: "20251005T010000",
+    end: "20251005T010000"
   },
   {
     time: "01:00 PM - 02:00 PM",
@@ -337,7 +339,7 @@ export const workshopSchedule = [
     type: "break",
     room: "",
     start: "20251005T130000",
-    end: "20251005T140000",
+    end: "20251005T140000"
   },
   {
     time: "02:00 PM - 03:00 PM",
@@ -346,7 +348,7 @@ export const workshopSchedule = [
     type: "workshop",
     room: "",
     start: "20251005T140000",
-    end: "20251005T150000",
+    end: "20251005T150000"
   },
   {
     time: "03:00 PM - 04:00 PM",
@@ -355,7 +357,7 @@ export const workshopSchedule = [
     type: "workshop",
     room: "",
     start: "20251005T150000",
-    end: "20251005T160000",
+    end: "20251005T160000"
   },
   {
     time: "04:00 PM - 05:00 PM",
@@ -364,7 +366,7 @@ export const workshopSchedule = [
     type: "panel",
     room: "",
     start: "20251005T160000",
-    end: "20251005T170000",
+    end: "20251005T170000"
   },
   {
     time: "05:00 PM - 05:15 PM",
@@ -373,8 +375,8 @@ export const workshopSchedule = [
     type: "closing",
     room: "Main Auditorium",
     start: "20251005T170000",
-    end: "20251005T171500",
-  },
+    end: "20251005T171500"
+  }
 ];
 
 export const BRANDING = {
@@ -385,14 +387,14 @@ export const BRANDING = {
     fullBlack: "/icons/OSWFullBlack.svg",
     white: "/icons/OSWWhite.svg",
     black: "/icons/OSWBlack.svg",
-    green: OSDGreen,
+    green: OSDGreen
   },
   colors: {
     primary: "#22c55e",
     secondary: "#16a34a",
     dark: "#15803d",
-    light: "#dcfce7",
-  },
+    light: "#dcfce7"
+  }
 };
 
 export const EVENT = {
@@ -409,8 +411,8 @@ export const EVENT = {
     speakers: "20+",
     workshops: "15+",
     sponsors: "20+",
-    communityPartners: "50+",
-  },
+    communityPartners: "50+"
+  }
 };
 
 export const NAVIGATION = {
@@ -422,12 +424,12 @@ export const NAVIGATION = {
     { name: "Sponsors", href: "/sponsors" },
     { name: "Venue", href: "/venue" },
     { name: "Badge", href: "/badge" },
-    { name: "Past Events", href: "/past-events" },
+    { name: "Past Events", href: "/past-events" }
   ],
   cta: {
     text: "Register Now",
-    url: "https://konfhub.com/open-source-day-2025",
-  },
+    url: "https://konfhub.com/open-source-day-2025"
+  }
 };
 
 export const SOCIAL_LINKS = [
@@ -435,31 +437,31 @@ export const SOCIAL_LINKS = [
     name: "Facebook",
     href: "https://www.facebook.com/OSWeekend",
     icon: FacebookIcon,
-    description: "Facebook",
+    description: "Facebook"
   },
   {
     name: "Twitter",
     href: "https://twitter.com/OSWeekend",
     icon: TwitterIcon,
-    description: "Twitter icon",
+    description: "Twitter icon"
   },
   {
     name: "Instagram",
     href: "https://instagram.com/OSWeekend",
     icon: InstagramIcon,
-    description: "Instagram icon",
+    description: "Instagram icon"
   },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/company/open-source-weekend/",
     icon: LinkedInIcon,
-    description: "LinkedIn icon",
+    description: "LinkedIn icon"
   },
   {
     name: "Github",
     href: "https://github.com/oscfcommunity",
     icon: GithubIcon,
-    description: "Github icon",
+    description: "Github icon"
   },
   // {
   //   name: "Discord",
@@ -471,8 +473,8 @@ export const SOCIAL_LINKS = [
     name: "Medium",
     href: "https://medium.com/@opensourceweekend",
     icon: MediumIcon,
-    description: "Medium icon",
-  },
+    description: "Medium icon"
+  }
 ];
 
 export const CONTACTS = [
@@ -480,20 +482,20 @@ export const CONTACTS = [
     name: "Email",
     content: "opensourceweekend@gmail.com",
     href: "mailto:opensourceweekend@gmail.com",
-    icon: Mail,
+    icon: Mail
   },
   {
     name: "Phone",
     content: "+91 89 8080 8222",
     href: "tel:+918980808222",
-    icon: Phone,
+    icon: Phone
   },
   {
     name: "Phone",
     content: "+91 84 0133 9936",
     href: "tel:+918401339936",
-    icon: Phone,
-  },
+    icon: Phone
+  }
 ];
 
 export const CONTACT = {
@@ -504,9 +506,9 @@ export const CONTACT = {
     venue: "VENUE - TBA",
     city: "Ahmedabad",
     state: "Gujarat",
-    country: "India",
+    country: "India"
   },
-  emergencyPhone: "+91 8980808222",
+  emergencyPhone: "+91 8980808222"
 };
 
 export const HERO = {
@@ -514,20 +516,20 @@ export const HERO = {
     part1: "PEN",
     part2: "SOURCE",
     part3: "DAY",
-    year: "2025",
+    year: "2025"
   },
   subtitle:
     "Join us for a day of learning, networking, and celebrating open source innovation. Connect with developers, contribute to projects, and shape the future of technology.",
   buttons: {
     primary: {
       text: "Register Now",
-      url: "https://konfhub.com/open-source-day-2025",
+      url: "https://konfhub.com/open-source-day-2025"
     },
     secondary: {
       text: "Learn More",
-      url: "/about",
-    },
-  },
+      url: "/about"
+    }
+  }
 };
 
 export const ABOUT = {
@@ -539,21 +541,21 @@ export const ABOUT = {
       title: "Learn & Contribute",
       description:
         "Discover new technologies, learn best practices, and get hands-on experience contributing to real open source projects.",
-      icon: "check",
+      icon: "check"
     },
     {
       title: "Connect",
       description:
         "Network with fellow developers, open source maintainers, and tech enthusiasts from the Indian tech community.",
-      icon: "users",
+      icon: "users"
     },
     {
       title: "Celebrate",
       description:
         "Celebrate the achievements of the open source community and discover exciting new projects and opportunities.",
-      icon: "star",
-    },
-  ],
+      icon: "star"
+    }
+  ]
 };
 
 export const CURRENT_SPEAKERS = [
@@ -572,7 +574,7 @@ export const CURRENT_SPEAKERS = [
             event: "Talk",
             presentationTitle: "Open source hardware for Tiny ML",
             link: "https://www.linkedin.com/in/krtrivedi",
-            image: KiranTrivedi,
+            image: KiranTrivedi
           },
           {
             name: "Varun Pandya",
@@ -581,7 +583,7 @@ export const CURRENT_SPEAKERS = [
             event: "Talk",
             presentationTitle: "Open source & AI",
             link: "https://www.linkedin.com/in/varun-pandya-1676a0103/",
-            image: VarunPandya,
+            image: VarunPandya
           },
           {
             name: "Chetan Soni",
@@ -591,7 +593,7 @@ export const CURRENT_SPEAKERS = [
             presentationTitle:
               "Building Secure Foundations: An Open-Source Approach to Kubernetes Secrets",
             link: "https://www.linkedin.com/in/sonichetan/",
-            image: ChetanSoni,
+            image: ChetanSoni
           },
           {
             name: "Someshwaran Mohan Kumar",
@@ -602,7 +604,7 @@ export const CURRENT_SPEAKERS = [
             presentationTitle:
               "From Guesswork to Flamegraphs: eBPF Profiling with DevFiler",
             link: "https://www.linkedin.com/in/somdevsupport/",
-            image: Someshwaran,
+            image: Someshwaran
           },
           {
             name: "Ansh Arora",
@@ -612,9 +614,9 @@ export const CURRENT_SPEAKERS = [
             presentationTitle:
               "Significance of Open Source Projects and its sustainability",
             link: "https://www.linkedin.com/in/ansharora28/",
-            image: AnshArora,
-          },
-        ],
+            image: AnshArora
+          }
+        ]
       },
       {
         title: "CXO panel",
@@ -625,9 +627,9 @@ export const CURRENT_SPEAKERS = [
             company: "TBD",
             presentationTitle: "TBD",
             link: "https://www.linkedin.com",
-            image: PersonImg,
-          },
-        ],
+            image: PersonImg
+          }
+        ]
       },
       {
         title: "Community Panel",
@@ -639,9 +641,9 @@ export const CURRENT_SPEAKERS = [
             event: "Community Panel",
             presentationTitle: "Wordpress Ahmedabad Community",
             link: "https://www.linkedin.com/in/pratik-bhatt-csm-64722416/",
-            image: PratikBhatt,
-          },
-        ],
+            image: PratikBhatt
+          }
+        ]
       },
       {
         title: "Devrooms",
@@ -652,11 +654,11 @@ export const CURRENT_SPEAKERS = [
             company: "TBD",
             presentationTitle: "TBD",
             link: "https://www.linkedin.com",
-            image: PersonImg,
-          },
-        ],
-      },
-    ],
+            image: PersonImg
+          }
+        ]
+      }
+    ]
   },
   {
     eventName: "Open Source with AI: Workshop",
@@ -670,7 +672,7 @@ export const CURRENT_SPEAKERS = [
         event: "Open Source with AI: Workshop",
         presentationTitle: "Creating AI Agents for Open Source Projects",
         link: "https://www.linkedin.com/in/ashishpatel2604/",
-        image: AshishPatel,
+        image: AshishPatel
       },
       {
         name: "Dhaval Desai",
@@ -680,7 +682,7 @@ export const CURRENT_SPEAKERS = [
         presentationTitle:
           "How to Start an Open Source Project & Manage like a Pro",
         link: "https://www.linkedin.com/in/dhavaltdesai/",
-        image: DhavalDesai,
+        image: DhavalDesai
       },
       {
         name: "Shreyan Mehta",
@@ -689,10 +691,10 @@ export const CURRENT_SPEAKERS = [
         event: "Open Source with AI: Workshop",
         presentationTitle: "Let's build agents using Google adk",
         link: "https://www.linkedin.com/in/devsm/",
-        image: ShreyanMehta,
-      },
-    ],
-  },
+        image: ShreyanMehta
+      }
+    ]
+  }
 ];
 
 export const SPEAKERS: Speaker[] = [
@@ -703,7 +705,7 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Open Source Journey with Elastic",
     event: "2024 OSW × HacktoberFest",
     eventYear: 2024,
-    image: AshishTiwari,
+    image: AshishTiwari
   },
   {
     name: "Sanjay Vaghela",
@@ -712,7 +714,7 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Open Source Technologies for a SaaS at Scale",
     event: "2024 OSW × HacktoberFest",
     eventYear: 2024,
-    image: SanjayVaghela,
+    image: SanjayVaghela
   },
   {
     name: "Ruchit Patel",
@@ -721,7 +723,7 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Demystifying Open Source",
     event: "2024 OSW × HacktoberFest",
     eventYear: 2024,
-    image: RuchitPatel,
+    image: RuchitPatel
   },
   {
     name: "Devarsh Shah",
@@ -730,7 +732,7 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Open Source Technologies for a SaaS at Scale",
     event: "2024 OSW × HacktoberFest",
     eventYear: 2024,
-    image: DevarshShah,
+    image: DevarshShah
   },
   {
     name: "Rishang Bhavsar",
@@ -740,7 +742,7 @@ export const SPEAKERS: Speaker[] = [
       "How to start an Open Source Project and contribute on Github",
     event: "2024 OSW × HacktoberFest",
     eventYear: 2024,
-    image: RishangBhavsar,
+    image: RishangBhavsar
   },
   {
     name: "Krupa Galiya",
@@ -750,7 +752,7 @@ export const SPEAKERS: Speaker[] = [
       "Significance of Open Source Contribution and Community Engagement",
     event: "2023 OSW × HacktoberFest",
     eventYear: 2023,
-    image: KrupaGaliya,
+    image: KrupaGaliya
   },
   {
     name: "Viral Parmar",
@@ -760,7 +762,7 @@ export const SPEAKERS: Speaker[] = [
       "How Can We Create Community Around Open Source Project And Get More Contribution",
     event: "2023 OSW × HacktoberFest",
     eventYear: 2023,
-    image: ViralParmar,
+    image: ViralParmar
   },
   {
     name: "Santosh Viswanatham",
@@ -769,7 +771,7 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Coding for Change: Hacktoberfest with Interledger",
     event: "2023 OSW × HacktoberFest",
     eventYear: 2023,
-    image: SantoshViswanatham,
+    image: SantoshViswanatham
   },
   // {
   //   name: "Dishant Makwana",
@@ -788,7 +790,7 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Kickstart Your Open Source Journey with Wordpress",
     event: "2023 OSW × HacktoberFest",
     eventYear: 2023,
-    image: RonakGanatra,
+    image: RonakGanatra
   },
   {
     name: "Nisharg Shah",
@@ -797,8 +799,8 @@ export const SPEAKERS: Speaker[] = [
     presentationTitle: "Kickstart Your Open Source Journey with NodeJS",
     event: "2023 OSW × HacktoberFest",
     eventYear: 2023,
-    image: NishargShah,
-  },
+    image: NishargShah
+  }
 ];
 
 export const TICKETS = [
@@ -814,7 +816,7 @@ export const TICKETS = [
       "Full-access to conference",
       "Lunch",
       "Keynotes, Panels",
-      "OSD Goodies",
+      "OSD Goodies"
     ],
     startsOn: "20th Sep 2025, 03:45 AM (GMT+05:30)",
     popular: false,
@@ -822,11 +824,11 @@ export const TICKETS = [
     fillingFast: true,
     alert: {
       text: "Filling Fast",
-      classes: "text-white bg-red-500",
+      classes: "text-white bg-red-500"
     },
     konfhubUrl:
       "https://konfhub.com/checkout/open-source-day-2025?ticketId=56800",
-    linkText: "Register Now",
+    linkText: "Register Now"
   },
   {
     name: "Open Source Day 25 + Devfest Gandhinagar 25",
@@ -846,17 +848,17 @@ export const TICKETS = [
       "Hi-Tea",
       "Keynotes, Panels",
       "GDG Gandhinagar Goodies",
-      "Digital Certificate",
+      "Digital Certificate"
     ],
     availableTill: "20th Sep 2025, 06:00 PM (GMT+05:30)",
     popular: true,
     available: true,
     alert: {
       text: "Most Popular",
-      classes: "text-white bg-green-600",
+      classes: "text-white bg-green-600"
     },
     konfhubUrl:
-      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56934",
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56934"
   },
   {
     name: "Community Fan",
@@ -870,17 +872,17 @@ export const TICKETS = [
       "Keynotes, Panels",
       "OSD Goodies",
       "Super Fan Goodies",
-      "Digital Certificate",
+      "Digital Certificate"
     ],
     availableTill: "5th Oct 2025, 06:00 PM (GMT+05:30)",
     popular: false,
     available: true,
     alert: {
       text: "Most Preferred",
-      classes: "text-white bg-blue-500",
+      classes: "text-white bg-blue-500"
     },
     konfhubUrl:
-      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56805",
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56805"
   },
   {
     name: "Supporter Ticket",
@@ -894,13 +896,13 @@ export const TICKETS = [
       "Keynotes, Panels",
       "OSD Goodies",
       "Supporter Exclusive goodies",
-      "Digital Certificate",
+      "Digital Certificate"
     ],
     availableTill: "5th Oct 2025, 06:00 PM (GMT+05:30)",
     popular: false,
     available: true,
     konfhubUrl:
-      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56803",
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56803"
   },
   {
     name: "Silver Ticket",
@@ -917,13 +919,13 @@ export const TICKETS = [
       "Digital Certificate",
       "Shout out during the event",
       "Shout-out on Social Media",
-      "Networking Dinner with Speakers, sponsors, organizers and some special industry invitees",
+      "Networking Dinner with Speakers, sponsors, organizers and some special industry invitees"
     ],
     availableTill: "5th Oct 2025, 06:00 PM (GMT+05:30)",
     popular: false,
     available: true,
     konfhubUrl:
-      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56804",
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56804"
   },
   {
     name: "Golden Ticket",
@@ -941,13 +943,13 @@ export const TICKETS = [
       "Networking Dinner with Speakers , sponsors , organizers and some special industry invitees",
       "Shout-out on Social Media",
       "Shout out during the event",
-      "Appreciation Memento from OSD",
+      "Appreciation Memento from OSD"
     ],
     availableTill: "5th Oct 2025, 06:00 PM (GMT+05:30)",
     popular: false,
     available: true,
     konfhubUrl:
-      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56806",
+      "https://konfhub.com/checkout/open-source-day-2025?ticketId=56806"
   },
   {
     name: "Micro Sponsor",
@@ -966,14 +968,14 @@ export const TICKETS = [
       "Networking Dinner with Speakers , sponsors , organizers and some special industry invitees",
       "Company Branding at relevant places",
       "Shout-out during the event",
-      "Appreciation Memento from OSD",
+      "Appreciation Memento from OSD"
     ],
     availableTill: "5th Oct 2025, 06:00 PM (GMT+05:30)",
     popular: false,
     available: false,
     konfhubUrl:
       "https://konfhub.com/checkout/open-source-day-2025?ticketId=56807",
-    linkText: "Sold Out",
+    linkText: "Sold Out"
   },
   {
     name: "Early Bird Ticket",
@@ -986,7 +988,7 @@ export const TICKETS = [
       "Lunch",
       "Keynotes, Panels",
       "OSD Goodies",
-      "Early Bird Discount",
+      "Early Bird Discount"
     ],
     availableTill: "20th Sep 2025, 06:00 PM (GMT+05:30)",
     popular: false,
@@ -994,7 +996,7 @@ export const TICKETS = [
     fillingFast: false,
     konfhubUrl:
       "https://konfhub.com/checkout/open-source-day-2025?ticketId=56932",
-    linkText: "Sold Out",
+    linkText: "Sold Out"
   },
   {
     name: "Open Source with AI Workshop + OSD Conference",
@@ -1016,7 +1018,7 @@ export const TICKETS = [
       "Week long Mentorship",
       "Solve Open Source Communities Problems",
       "Workshop Exclusive Goodies",
-      "Digital Certificate",
+      "Digital Certificate"
     ],
     availableTill: "26th Sep 2025, 06:00 PM (GMT+05:30)",
     popular: false,
@@ -1025,8 +1027,8 @@ export const TICKETS = [
       "https://konfhub.com/checkout/open-source-day-2025?ticketId=56933",
     couponCode: "OSDWSHOP25",
     discountedPrice: "₹499",
-    linkText: "Sold Out",
-  },
+    linkText: "Sold Out"
+  }
 ];
 
 export const VENUE = {
@@ -1043,8 +1045,8 @@ export const VENUE = {
     "Networking lounge and exhibition area",
     "High-speed WiFi throughout",
     "Professional A/V equipment",
-    "Accessible facilities",
-  ],
+    "Accessible facilities"
+  ]
 };
 
 export const FOOTER = {
@@ -1056,15 +1058,15 @@ export const FOOTER = {
     { name: "Venue", href: "/venue" },
     { name: "Tickets", href: "/tickets" },
     { name: "My Badge", href: "/my-badge" },
-    { name: "Past Events", href: "/past-events" },
+    { name: "Past Events", href: "/past-events" }
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy" },
     { name: "Terms of Service", href: "/terms" },
-    { name: "Code of Conduct", href: "/code-of-conduct" },
+    { name: "Code of Conduct", href: "/code-of-conduct" }
   ],
   copyright: "© 2025 OpenSource Weekend",
-  credits: "Made with ❤️ by the OSW community",
+  credits: "Made with ❤️ by the OSW community"
 };
 
 export const META = {
@@ -1078,10 +1080,10 @@ export const META = {
     "developers",
     "technology",
     "innovation",
-    "community",
+    "community"
   ],
   author: "OpenSource Weekend",
-  twitterCard: "summary_large_image",
+  twitterCard: "summary_large_image"
 };
 
 export const SPONSORS = [
@@ -1089,26 +1091,26 @@ export const SPONSORS = [
     name: "Acme Labs",
     tier: "Platinum",
     logo: "https://placehold.co/200x80?text=Acme+Labs&bg=0d9488&color=ffffff",
-    website: "https://acme.example",
+    website: "https://acme.example"
   },
   {
     name: "DevTools Inc",
     tier: "Gold",
     logo: "https://placehold.co/200x80?text=DevTools&bg=16a34a&color=ffffff",
-    website: "https://devtools.example",
+    website: "https://devtools.example"
   },
   {
     name: "Cloudify",
     tier: "Silver",
     logo: "https://placehold.co/200x80?text=Cloudify&bg=0f172a&color=ffffff",
-    website: "https://cloudify.example",
+    website: "https://cloudify.example"
   },
   {
     name: "OpenSource Community",
     tier: "Community",
     logo: "https://placehold.co/200x80?text=Community&bg=64748b&color=ffffff",
-    website: "https://community.example",
-  },
+    website: "https://community.example"
+  }
 ];
 
 export const VENUE_PARTNER = [
@@ -1116,8 +1118,8 @@ export const VENUE_PARTNER = [
     id: 1,
     name: "Silver Oak University",
     logo: SOU.src,
-    website: "#",
-  },
+    website: "#"
+  }
 ];
 
 export const EVENT_PARTNER = [
@@ -1125,14 +1127,14 @@ export const EVENT_PARTNER = [
     id: 1,
     name: "Elastic India",
     logo: "/partners/elastic.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 2,
     name: "Google for Developers",
     logo: GoogleForDevelopers.src,
-    website: "#",
-  },
+    website: "#"
+  }
 ];
 
 export const COMMUNITY_PARTNERS = [
@@ -1140,386 +1142,386 @@ export const COMMUNITY_PARTNERS = [
     id: 1,
     name: "GDG Gandhinagar",
     logo: "/partners/gdg_gandhinagar.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 2,
     name: "GDG Cloud Gandhinagar",
     logo: "/partners/gdg_cloud_gandhinagar.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 3,
     name: "FFDG Vadodara",
     logo: "/partners/ffdg_vadodara.svg",
-    website: "#",
+    website: "#"
   },
   {
     id: 4,
     name: "GDG Cloud Rajkot",
     logo: "/partners/gdg_cloud_rajkot.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 5,
     name: "GDG Surat",
     logo: "/partners/gdg_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 6,
     name: "CNCG Gandhinagar",
     logo: "/partners/cncg_gandhinagar.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 7,
     name: "Hashicorp Ahmedabad",
     logo: "/partners/hashicorp_ahmedabad.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 8,
     name: "Hashicorp Gandhinagar",
     logo: "/partners/hashicorp_gandhinagar.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 9,
     name: "Grafana Ahmedabad",
     logo: "/partners/grafana_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 10,
     name: "Ahmedabad Developer Club",
     logo: "/partners/ahmedabad_developer_club.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 11,
     name: "Devoops Gujarat",
     logo: "/partners/devoops_gujarat.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 12,
     name: "The Hackers Meetup",
     logo: "/partners/the_hackers_meetup.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 13,
     name: "Java User Group Gujarat",
     logo: "/partners/java_user_group_gujarat.svg",
-    website: "#",
+    website: "#"
   },
   {
     id: 14,
     name: "GDG Cloud Ahmedabad",
     logo: "/partners/gdg_cloud_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 15,
     name: "GDG Ahmedabad",
     logo: "/partners/gdg_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 16,
     name: "FFDG Gandhinagar",
     logo: "/partners/ffdg_gandhinagar.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 17,
     name: "FFDG Ahmedabad",
     logo: "/partners/ffdg_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 18,
     name: "Node Ahmedabad",
     logo: "/partners/node_ahmedabad.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 19,
     name: "GDG Nashik",
     logo: "/partners/gdg_nashik.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 20,
     name: "GDG Cloud Pune",
     logo: "/partners/gdg_cloud_pune.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 21,
     name: "CNCF Rajkot",
     logo: "/partners/cncf_rajkot.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 22,
     name: "GDG Pune",
     logo: "/partners/gdg_pune.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 23,
     name: "Flutter Surat",
     logo: "/partners/flutter_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 24,
     name: "R User Group Ahmedabad",
     logo: "/partners/r_user_group_ahmedabad.jpeg",
-    website: "#",
+    website: "#"
   },
   {
     id: 25,
     name: "IT Sales Community",
     logo: "/partners/it_sales_community.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 26,
     name: "HR Professional Community",
     logo: "/partners/hr_professional_community.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 27,
     name: "GDG Cloud Mumbai",
     logo: "/partners/gdg_cloud_mumbai.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 28,
     name: "Azure UG Vadodara",
     logo: "/partners/azure_vadodara.jpeg",
-    website: "#",
+    website: "#"
   },
   {
     id: 29,
     name: "Laracon India",
     logo: "/partners/laracon_india.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 30,
     name: "AI Camp India",
     logo: "/partners/ai_camp_india.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 31,
     name: "TechExpo Gujarat",
     logo: "/partners/techexpo_gujarat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 32,
     name: "FFDG Rajkot",
     logo: "/partners/ffdg_rajkot.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 33,
     name: "GDG Rajkot",
     logo: "/partners/gdg_rajkot.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 34,
     name: "AWS Ahmedabad",
     logo: "/partners/aws_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 35,
     name: "Figma Surat",
     logo: "/partners/figma_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 36,
     name: "Laravel Surat",
     logo: "/partners/laravel_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 37,
     name: "MongoDB Ahmedabad",
     logo: "/partners/mongodb_ahmedabad.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 38,
     name: "Magento Ahmedabad",
     logo: "/partners/magento_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 39,
     name: "CNCF Ahmedabad",
     logo: "/partners/cncf_ahmedabad.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 40,
     name: "FFDG Surat",
     logo: "/partners/ffdg_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 41,
     name: "AWS Vadodara",
     logo: "/partners/aws_vadodara.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 42,
     name: "Hashicorp Vadodara",
     logo: "/partners/hashicorp_vadodara.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 43,
     name: "HydPy",
     logo: "/partners/hydpy.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 44,
     name: "Wordpress Surat",
     logo: "/partners/wordpress_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 45,
     name: "AWS Surat",
     logo: "/partners/aws_surat.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 46,
     name: "Figma Ahmedabad",
     logo: "/partners/figma_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 47,
     name: "Wordpress Ahmedabad",
     logo: "/partners/wordpress_ahmedabad.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 48,
     name: "GDG on Campus Karnavati University",
     logo: "/partners/gdg_karnaviti.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 49,
     name: "Javascript Gujarat",
     logo: "/partners/javascript_gujarat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 50,
     name: "Kotlin Surat",
     logo: "/partners/kotlin_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 51,
     name: "AWS UG Rajkot",
     logo: "/partners/aws_ug_rajkot.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 52,
     name: "MumPy",
     logo: "/partners/mumpy.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 53,
     name: "Mind Maze",
     logo: "/partners/mindmaze.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 54,
     name: "Tech Summit",
     logo: "/partners/tech_summit.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 55,
     name: "Flutter Flow Students Community India",
     logo: "/partners/ffsc.svg",
-    website: "#",
+    website: "#"
   },
   {
     id: 56,
     name: "Python Pune",
     logo: "/partners/PythonPune.svg",
-    website: "#",
+    website: "#"
   },
   {
     id: 57,
     name: "GDG on Campus: AIT",
     logo: "/partners/gdgoc_ait.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 58,
     name: "Docker Ahmedabad",
     logo: "/partners/docker_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 59,
     name: "CNCG Surat",
     logo: "/partners/cncg_surat.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 60,
     name: "GDG on Campus: Silver Oak University",
     logo: "/partners/gdgoc_silver_oak.jpg",
-    website: "#",
+    website: "#"
   },
   {
     id: 61,
     name: "IEEE Silver Oak University",
     logo: "/partners/ieee_sou.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 62,
     name: "Web 3 Ahmedabad Community",
     logo: "/partners/web3_ahmedabad.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 63,
     name: "FOSS United",
     logo: "/partners/FOSS_United.png",
-    website: "#",
+    website: "#"
   },
   {
     id: 64,
     name: "GDG Mumbai",
     logo: "/partners/gdg_mumbai.png",
-    website: "#",
-  },
+    website: "#"
+  }
 ];
 
 // Simple tier grouping for display on Home and Sponsors page.
@@ -1527,18 +1529,18 @@ export const SPONSOR_TIERS = {
   gold: [
     { name: "OSCF", logo: "/icons/OSCF.png", website: "#" },
     { name: "OSW", logo: OSWBlack.src, website: "#" },
-    { name: "CCSF", logo: "/icons/CCSF.png", website: "#" },
+    { name: "CCSF", logo: "/icons/CCSF.png", website: "#" }
   ],
   silver: [
     { name: "OSCF", logo: "/icons/OSCF.png", website: "#" },
     { name: "OSW", logo: OSWBlack.src, website: "#" },
-    { name: "CCSF", logo: "/icons/CCSF.png", website: "#" },
+    { name: "CCSF", logo: "/icons/CCSF.png", website: "#" }
   ],
   bronze: [
     { name: "OSCF", logo: "/icons/OSCF.png", website: "#" },
     { name: "OSW", logo: OSWBlack.src, website: "#" },
-    { name: "CCSF", logo: "/icons/CCSF.png", website: "#" },
-  ],
+    { name: "CCSF", logo: "/icons/CCSF.png", website: "#" }
+  ]
 };
 
 // Add a few extra online sponsor logos for demo
@@ -1546,18 +1548,18 @@ export const EXTRA_SPONSORS = [
   {
     name: "Stripe",
     logo: "https://placehold.co/200x80?text=Stripe&bg=0ea5a4&color=ffffff",
-    website: "https://stripe.com",
+    website: "https://stripe.com"
   },
   {
     name: "Netlify",
     logo: "https://placehold.co/200x80?text=Netlify&bg=0f172a&color=ffffff",
-    website: "https://netlify.com",
+    website: "https://netlify.com"
   },
   {
     name: "Vercel",
     logo: "https://placehold.co/200x80?text=Vercel&bg=111827&color=ffffff",
-    website: "https://vercel.com",
-  },
+    website: "https://vercel.com"
+  }
 ];
 
 export const TEAM = {
@@ -1567,17 +1569,17 @@ export const TEAM = {
       name: "Dr. Rinkesh Bansal",
       roles: ["Program Director", "Master Inventor at IBM"],
       linkedin: "https://www.linkedin.com/in/rinkesh-bansal-09798843/",
-      image: RinkeshBansal,
+      image: RinkeshBansal
     },
     {
       id: 2,
       name: "Nirav Shah",
       roles: [
         "Director at Eternal Web Private Limited",
-        "AWS Community Builder",
+        "AWS Community Builder"
       ],
       linkedin: "https://www.linkedin.com/in/nirav-eternal/",
-      image: NiravShah,
+      image: NiravShah
     },
     {
       id: 3,
@@ -1585,18 +1587,18 @@ export const TEAM = {
       roles: [
         "Staff Engineer at Celonis",
         "Google Developer Expert",
-        "GitHub Star",
+        "GitHub Star"
       ],
       linkedin: "https://www.linkedin.com/in/santoshyadavdev/",
-      image: SantoshYadav,
+      image: SantoshYadav
     },
     {
       id: 4,
       name: "Vishal Rajpurohit",
       roles: ["CTO at ViitorCloud", "Organizer of Laracon India"],
       linkedin: "https://www.linkedin.com/in/vishalrajpurohit/",
-      image: VishalRajpurohit,
-    },
+      image: VishalRajpurohit
+    }
   ],
   mentors: [
     {
@@ -1607,20 +1609,20 @@ export const TEAM = {
         "Mozilla Reps Council",
         "Docker Captain",
         "AWS Community Builder",
-        "Google Developer Expert",
+        "Google Developer Expert"
       ],
       linkedin: "https://www.linkedin.com/in/nomadicmehul/",
-      image: MehulPatel,
+      image: MehulPatel
     },
     {
       id: 2,
       name: "Ashish Tiwari",
       roles: [
         "Principal Solutions Architect",
-        "Search Specialist @ Elastic India",
+        "Search Specialist @ Elastic India"
       ],
       linkedin: "https://www.linkedin.com/in/ashishtiwari93/",
-      image: AshishTiwari,
+      image: AshishTiwari
     },
     {
       id: 3,
@@ -1628,24 +1630,24 @@ export const TEAM = {
       roles: [
         "AI Engineering Manager at Red Hat",
         "Mozilla Reps Council",
-        "3X Wrangler at MozFest",
+        "3X Wrangler at MozFest"
       ],
       linkedin: "https://www.linkedin.com/in/prathameshpchavan/",
-      image: PrathameshChavan,
+      image: PrathameshChavan
     },
     {
       id: 4,
       name: "Harsh Manvar",
       roles: ["CNCF Ambassador", "Docker Captain", "Google Developer Expert"],
       linkedin: "https://www.linkedin.com/in/harsh-manvar-64a30aa3/",
-      image: HarshManvar,
+      image: HarshManvar
     },
     {
       id: 5,
       name: "Suraj Nath",
       roles: ["Sr. Software Engineer at Grafana Labs"],
       linkedin: "https://www.linkedin.com/in/electron0zero/",
-      image: SurajNath,
+      image: SurajNath
     },
     {
       id: 6,
@@ -1655,11 +1657,11 @@ export const TEAM = {
         "Open Source & Community Advocate",
         "Chair PyConf Hyderabad",
         "Co-chair PyCon India",
-        "Kaggle4X contributor",
+        "Kaggle4X contributor"
       ],
       linkedin: "https://www.linkedin.com/in/itskpflow/",
-      image: KalyanPrasad,
-    },
+      image: KalyanPrasad
+    }
     // {
     //   name: "Kalyan Prasad",
     //   roles: ["Advisor, Kaggle", "Organizer, PyCon India"],
@@ -1697,66 +1699,73 @@ export const TEAM = {
         "Director - Open Source Community Foundation",
         "Director - ComExpo Cyber Security Foundation",
         "Community Manager at The Hackers Meetup",
-        "Co-organizer at Open Source Weekend",
+        "Co-organizer at Open Source Weekend"
       ],
       linkedin: "https://www.linkedin.com/in/viral-parmar-8402a04a/",
-      image: ViralParmar,
+      image: ViralParmar
     },
     {
       id: 2,
       name: "Neel Shah",
       roles: [
         "Developer Advocate at Middleware",
-        "Co-organizer at Open Source Weekend",
+        "Co-organizer at Open Source Weekend"
       ],
       linkedin: "https://www.linkedin.com/in/neelcshah/",
-      image: NeelShah,
+      image: NeelShah
     },
     {
       id: 3,
       name: "Dhaval Desai",
       roles: ["Product Manager at Gluu"],
       linkedin: "https://www.linkedin.com/in/dhavaltdesai/",
-      image: DhavalDesai,
+      image: DhavalDesai
     },
     {
       id: 4,
       name: "Bhargav Pithva",
       roles: ["Technical Project Manager at Rysun Labs"],
       linkedin: "https://www.linkedin.com/in/bhargavpithva/",
-      image: BhargavPithva,
+      image: BhargavPithva
     },
     {
       id: 5,
       name: "Tanvir Dhanani",
       roles: ["Backend Developer at IBM"],
       linkedin: "https://www.linkedin.com/in/dhanani-tanvir-aa4076118/",
-      image: DhananiTanvir,
+      image: DhananiTanvir
     },
     {
       id: 6,
       name: "Jignesh Gadhavi",
       roles: [
         "Sr. DevOps Engineer at Yellow Panther",
-        "Co-organizer at GDG Cloud Gandhinagar",
+        "Co-organizer at GDG Cloud Gandhinagar"
       ],
       linkedin: "https://www.linkedin.com/in/jigneshkumar-gadhavi/",
-      image: JigneshGadhavi,
+      image: JigneshGadhavi
     },
     {
       id: 7,
       name: "Falgun Bhalsod",
       roles: ["DevOps Engineer at Yellow Panther"],
       linkedin: "https://www.linkedin.com/in/falgunbhalsod/",
-      image: FalgunBhalsod,
+      image: FalgunBhalsod
     },
     {
       id: 8,
-      name: "Sagar Jethi",
-      roles: ["Polygot Engineer, Blockchain Developer", "Chainlink Ambassador"],
-      linkedin: "https://www.linkedin.com/in/sagarjethi",
-      image: SagarJethi,
+      name: "Bharat Makwana",
+      roles: ["Software Developer Engineer"],
+      linkedin: "https://www.linkedin.com/in/bharatmk2567/",
+      image: BharatMakwana
     },
+    {
+      id: 9,
+      name: "Prashant Bhavsar",
+      roles: ["Associate security consultant at KPMG"],
+      linkedin: "https://www.linkedin.com/in/prashant-bhavsar-3o12/",
+      image: PrashantBhavsar
+    }
   ],
   volunteers: [
     {
@@ -1764,119 +1773,119 @@ export const TEAM = {
       name: "Abhishek Singh",
       roles: ["Generalist"],
       linkedin: "https://abhishe.com",
-      image: AbhishekSingh,
+      image: AbhishekSingh
     },
     {
       id: 2,
       name: "Ashish Vaghela",
       roles: ["Software Crafter"],
       linkedin: "https://www.linkedin.com/in/ashish-codejourney",
-      image: AshishVaghela,
+      image: AshishVaghela
     },
     {
       id: 3,
       name: "Ashish Zapadiya",
       roles: ["Software Engineer"],
       linkedin: "https://www.linkedin.com/in/zapadiya007/",
-      image: AshishZapadiya,
+      image: AshishZapadiya
     },
     {
       id: 4,
       name: "Darshil Vyas",
       roles: ["Cyber Security Consultant"],
       linkedin: "https://www.linkedin.com/in/iamgrepboy/",
-      image: DarshilVyas,
+      image: DarshilVyas
     },
     {
       id: 5,
       name: "Ekta Agja",
       roles: ["Teaching Assistant"],
       linkedin: "https://www.linkedin.com/in/ektaagja",
-      image: EktaAgja,
+      image: EktaAgja
     },
     {
       id: 6,
       name: "Harsh Parekh",
       roles: ["Trainee Software Engineer"],
       linkedin: "https://www.linkedin.com/in/hap404/",
-      image: HarshParekh,
+      image: HarshParekh
     },
     {
       id: 7,
       name: "Krish Satasiya",
       roles: ["Full Stack Developer"],
       linkedin: "https://www.linkedin.com/in/satasiyakrish1/",
-      image: KrishSatasiya,
+      image: KrishSatasiya
     },
     {
       id: 8,
       name: "Pranjal Singh",
       roles: ["Student"],
       linkedin: "https://www.linkedin.com/in/pranjalksingh92",
-      image: PranjalSingh,
+      image: PranjalSingh
     },
     {
       id: 9,
       name: "Rohit Chavda",
       roles: ["Full Stack Developer"],
       linkedin: "https://www.linkedin.com/in/rohitchavda",
-      image: RohitChavda,
+      image: RohitChavda
     },
     {
       id: 11,
       name: "Rutvi Shiroya",
       roles: ["Business Growth Partner"],
       linkedin: "https://www.linkedin.com/in/rutvi-shiroya-898593203/",
-      image: RutviPatel,
+      image: RutviPatel
     },
     {
       id: 12,
       name: "Sanket Tank",
       roles: ["Full Stack Developer"],
       linkedin: "https://www.linkedin.com/in/sankettank66",
-      image: SanketTank,
+      image: SanketTank
     },
     {
       id: 13,
       name: "Stavan Mehta",
       roles: ["Student"],
       linkedin: "https://www.linkedin.com/in/stavanmehta17/",
-      image: StavanMehta,
+      image: StavanMehta
     },
     {
       id: 14,
       name: "Yash Nanda",
       roles: ["React Native Developer"],
       linkedin: "https://www.linkedin.com/in/yashnandha/",
-      image: YashNanda,
+      image: YashNanda
     },
     {
       id: 15,
       name: "Biraj Desai",
       roles: ["Technical Implementation Specialist and Developer"],
       linkedin: "https://www.linkedin.com/in/biraj2692",
-      image: BirajDesai,
+      image: BirajDesai
     },
     {
       id: 15,
       name: "Ronit Gandhi",
       roles: ["Software Engineer & Sys Admin"],
       linkedin: "https://in.linkedin.com/in/ronitgandhi08",
-      image: RonitGandhi,
+      image: RonitGandhi
     },
     {
       id: 16,
       name: "Amit Rana",
       roles: ["System Administrator"],
       linkedin: "https://www.linkedin.com/in/amit-rana-544814156",
-      image: AmitRana,
+      image: AmitRana
     },
     {
       id: 17,
       name: "Meet Raval",
       roles: ["Software Developer"],
       linkedin: "https://www.linkedin.com/in/meetraval0908/",
-      image: MeetRaval,
+      image: MeetRaval
     },
 
     {
@@ -1884,14 +1893,14 @@ export const TEAM = {
       name: "Kunjan Atara",
       roles: ["UI/UX Designer"],
       linkedin: "https://www.linkedin.com/in/kunjan-thakkar-atara-768b86107/",
-      image: KunjanAtara,
+      image: KunjanAtara
     },
     {
       id: 19,
       name: "Harshil Shah",
       roles: ["Technical Support Engineer"],
       linkedin: "https://www.linkedin.com/in/harshil-shah-ba20721b6/",
-      image: HarshilShah,
+      image: HarshilShah
     },
 
     {
@@ -1899,7 +1908,7 @@ export const TEAM = {
       name: "Kajal Sangani",
       roles: ["Senior Software Developer"],
       linkedin: "https://www.linkedin.com/in/kajal-sangani/",
-      image: KajalSangani,
+      image: KajalSangani
     },
 
     {
@@ -1907,7 +1916,7 @@ export const TEAM = {
       name: "Dhwanit Mistry",
       roles: ["Student"],
       linkedin: "https://www.linkedin.com/in/dhwanit-mistry-b83772270/",
-      image: DhwanitMistry,
+      image: DhwanitMistry
     },
 
     {
@@ -1915,7 +1924,7 @@ export const TEAM = {
       name: "Jay Dobariya",
       roles: ["Python Developer"],
       linkedin: "https://www.linkedin.com/in/jay-dobariya-3208b8218",
-      image: JayDobariya,
+      image: JayDobariya
     },
 
     {
@@ -1923,7 +1932,7 @@ export const TEAM = {
       name: "Jayraj Rathod",
       roles: ["Cyber Security Analyst"],
       linkedin: "https://www.linkedin.com/in/jayraj-rathod-352496240/",
-      image: JayrajRathod,
+      image: JayrajRathod
     },
 
     {
@@ -1931,7 +1940,7 @@ export const TEAM = {
       name: "Dilip Luhar",
       roles: ["Sr. Backend Developer"],
       linkedin: "https://www.linkedin.com/in/dilip-luhar-3a037272/",
-      image: DilipLuhar,
+      image: DilipLuhar
     },
 
     {
@@ -1939,7 +1948,7 @@ export const TEAM = {
       name: "Shail Shah",
       roles: ["Software Engineer"],
       linkedin: "https://www.linkedin.com/in/shail-shah-95550a225/",
-      image: ShailShah,
+      image: ShailShah
     },
 
     {
@@ -1947,7 +1956,7 @@ export const TEAM = {
       name: "Shyam Rughani",
       roles: ["DevOps Enigneer"],
       linkedin: "https://www.linkedin.com/in/shyam-rughani-45225a1a7/",
-      image: ShyamRughani,
+      image: ShyamRughani
     },
 
     {
@@ -1955,9 +1964,9 @@ export const TEAM = {
       name: "Shabbir Ali",
       roles: ["DevSecOps Engineer"],
       linkedin: "https://www.linkedin.com/in/shabbirali-khanusiya-52652553/",
-      image: ShabbirAli,
-    },
-  ],
+      image: ShabbirAli
+    }
+  ]
 };
 
 export const PastEvent = [
@@ -1973,13 +1982,13 @@ export const PastEvent = [
       OSWMay_6,
       OSWMay_7,
       OSWMay_8,
-      OSWMay_9,
-    ],
+      OSWMay_9
+    ]
   },
   {
     year: "2025",
     title: "OpenSourceWeekend: Product Collective (April 2025)",
-    images: [OSWApril_1, OSWApril_2, OSWApril_3, OSWApril_4],
+    images: [OSWApril_1, OSWApril_2, OSWApril_3, OSWApril_4]
   },
   {
     year: "2024",
@@ -1999,8 +2008,8 @@ export const PastEvent = [
       OSW24_12,
       OSW24_13,
       OSW24_14,
-      OSW24_15,
-    ],
+      OSW24_15
+    ]
   },
   {
     year: "2023",
@@ -2015,8 +2024,8 @@ export const PastEvent = [
       OSWJune23_7,
       OSWJune23_8,
       OSWJune23_9,
-      OSWJune23_10,
-    ],
+      OSWJune23_10
+    ]
   },
   {
     year: "2023",
@@ -2031,7 +2040,7 @@ export const PastEvent = [
       OSW23_7,
       OSW23_8,
       OSW23_9,
-      OSW23_10,
-    ],
-  },
+      OSW23_10
+    ]
+  }
 ];
