@@ -10,7 +10,6 @@ import ViralParmar from "@/assets/team/ViralParmar.webp";
 import NeelShah from "@/assets/team/NeelShah.webp";
 import JigneshGadhavi from "@/assets/team/JigneshGadhavi.webp";
 import FalgunBhalsod from "@/assets/team/FalgunBhalsod.webp";
-import SagarJethi from "@/assets/team/SagarJethi.jpg";
 import DhavalDesai from "@/assets/team/DhavalDesai.webp";
 import RinkeshBansal from "@/assets/team/RinkeshBansal.webp";
 import AshishTiwari from "@/assets/team/AshishTiwari.webp";
