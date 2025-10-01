@@ -76,6 +76,11 @@ import ChetanSheladiya from "@/assets/speakers/ChetanSheladiya.png";
 import BhavikaPatel from "@/assets/speakers/BhavikaPatel.png";
 import ParthPandya from "@/assets/speakers/ParthPandya.png";
 import JayThakkar from "@/assets/speakers/JayThakkar.jpg";
+import MukeshGoswami from "@/assets/speakers/MukeshGoswami.png";
+import HussainLokhandwala from "@/assets/speakers/HussainLokhandwala.jpeg";
+import VikasRajput from "@/assets/speakers/VikasRajput.jpg";
+import VijayGolani from "@/assets/speakers/VijayGolani.jpg";
+import HarshadModi from "@/assets/speakers/HarshadModi.png";
 
 import PersonImg from "@/assets/speakers/PersonImg.webp";
 
@@ -584,6 +589,16 @@ export const CURRENT_SPEAKERS = [
             image: ParthPandya,
           },
           {
+            name: "Harshad Modi",
+            position: "CTO",
+            company: "Odoo India",
+            event: "Closing Keynote",
+            presentationTitle:
+              "Building a Multi Billion Dollar Open Source Product",
+            link: "https://www.linkedin.com/in/harshadmodi/",
+            image: HarshadModi,
+          },
+          {
             name: "Kiran Trivedi",
             position: "Professor",
             company: "University of Wollongong Australia: India Campus",
@@ -672,6 +687,22 @@ export const CURRENT_SPEAKERS = [
             link: "https://www.linkedin.com/in/chinmayushah/",
             image: ChinmayShah,
           },
+          {
+            name: "Dr. Mukesh Goswami",
+            position: "CTO",
+            company: "Kenexai LLC",
+            presentationTitle: "",
+            link: "https://www.linkedin.com/in/mukeshmgoswami/",
+            image: MukeshGoswami,
+          },
+          // {
+          //   name: "",
+          //   position: "",
+          //   company: "",
+          //   presentationTitle: "",
+          //   link: "",
+          //   image: ,
+          // },
         ],
       },
       {
@@ -688,6 +719,42 @@ export const CURRENT_SPEAKERS = [
             link: "https://www.linkedin.com/in/pratik-bhatt-csm-64722416/",
             image: PratikBhatt,
           },
+          {
+            name: "Vijay Golani",
+            position: "Co-Founder",
+            company: "Evirg Solution",
+            event: "Community Panel",
+            presentationTitle: "Magento Ahemdabad",
+            link: "https://www.linkedin.com/in/vijaygolani/",
+            image: VijayGolani,
+          },
+          {
+            name: "Vikas Rajput",
+            position: "Founder",
+            company: "Techxplore IT Solutions",
+            event: "Community Panel",
+            presentationTitle: "Java User Group Gujarat",
+            link: "https://linkedin.com/in/vikasrajputin",
+            image: VikasRajput,
+          },
+          {
+            name: "Ruchit Patel",
+            position: "Team Lead",
+            company: "Viitor Cloud",
+            event: "Community Panel",
+            presentationTitle: "Laravel Ahmedabad",
+            link: "https://www.linkedin.com/in/about-ruchit-patel/",
+            image: RuchitPatel,
+          },
+          {
+            name: "Hussain Lokhandwala",
+            position: "DevOps Engineer",
+            company: "UsefulBI Corporation",
+            event: "Community Panel",
+            presentationTitle: "The Hackers Meetup",
+            link: "https://www.linkedin.com/in/hussain-lokhandwala/",
+            image: HussainLokhandwala,
+          },
         ],
       },
       {
@@ -699,6 +766,7 @@ export const CURRENT_SPEAKERS = [
             name: "Jay Thakkar",
             position: "AI Engineer",
             company: "Impulsive Web",
+            tags: ["Google Developer Expert: AI"],
             event: "Devrooms",
             presentationTitle:
               "Gemini CLI: The All-Round Developer Friend in the Terminal",
@@ -1584,6 +1652,12 @@ export const COMMUNITY_PARTNERS = [
   {
     id: 65,
     name: "AWS Cloud Club: Silver Oak University",
+    logo: "/partners/aws_cloud_club_sou.png",
+    website: "#",
+  },
+  {
+    id: 66,
+    name: "Wordpress Rajkot",
     logo: "/partners/aws_cloud_club_sou.png",
     website: "#",
   },
