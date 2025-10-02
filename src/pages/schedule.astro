@@ -7,28 +7,21 @@ import "@/styles/global.css";
 import { eventSchedule, workshopSchedule, fullEvent } from "@/config";
 
 const getTypeColor = (type: string) => {
-  switch (type) {
-    case "registration":
-      return "bg-teal-500/20 border-teal-500/40 text-teal-400";
-    case "activity":
-      return "bg-indigo-500/20 border-indigo-500/40 text-indigo-400";
-    case "opening":
-      return "bg-lime-500/20 border-lime-500/40 text-lime-400";
-    case "keynote":
-      return "bg-green-500/20 border-green-500/40 text-green-400";
-    case "talk":
-      return "bg-blue-500/20 border-blue-500/40 text-blue-400";
-    case "panel":
-      return "bg-orange-500/20 border-orange-500/40 text-orange-400";
-    case "break":
-      return "bg-gray-500/20 border-gray-500/40 text-black-400";
-    case "closing":
-      return "bg-red-500/20 border-red-500/40 text-red-400";
-    case "social":
-      return "bg-pink-500/20 border-pink-500/40 text-pink-400";
-    default:
-      return "bg-gray-500/20 border-gray-500/40 text-black-400";
-  }
+  const colorMap: Record<string, string> = {
+    registration: "bg-gray-100",
+    "community panel": "bg-green-300", // Note: this seems like a typo
+    opening: "bg-gray-100",
+    keynote: "bg-yellow-200",
+    "closing keynote": "bg-yellow-200",
+    talk: "bg-blue-200",
+    "cxo panel": "bg-lime-300",
+    break: "bg-gray-100",
+    closing: "bg-gray-100",
+    social: "bg-gray-100",
+    activity: "bg-gray-100",
+  };
+
+  return colorMap[type.toLowerCase()] || "bg-pink-300";
 };
 ---
 
@@ -46,12 +39,18 @@ const getTypeColor = (type: string) => {
       class="py-20 px-4 w-full bg-gradient-to-t to-green-50 from-green-300"
     >
       <div class="max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold text-center text-black mb-12">
-          <span class="gradient-text">Open Source Day 2025</span>
-          <span class="text-lg block text-green-500"
-            >Silver Oak University (5th October 2025)</span
-          >
-        </h2>
+        <div class="flex flex-col flex-1 items-center">
+          <h2 class="text-4xl font-bold text-center text-black mb-4">
+            <span class="gradient-text">Open Source Day 2025</span>
+            <span class="text-lg block text-green-500"
+              >Silver Oak University (5th October 2025)</span
+            >
+          </h2>
+          <div class="btn mb-12 w-fit">
+            <AddToGoogleCalendar event={fullEvent} client:load />
+          </div>
+        </div>
+
         <div class="space-y-4">
           {
             eventSchedule.map((session) => (
@@ -63,12 +62,11 @@ const getTypeColor = (type: string) => {
                         {session.time}
                       </span>
                       <span
-                        class={`px-3 py-1 rounded-full text-xs font-semibold border ${getTypeColor(
+                        class={`px-3 py-1 whitespace-nowrap rounded-full text-xs font-semibold border-2  text-black border-black ${getTypeColor(
                           session.type
                         )}`}
                       >
-                        {session.type.charAt(0).toUpperCase() +
-                          session.type.slice(1)}
+                        {session.type.toUpperCase()}
                       </span>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-1">
@@ -79,7 +77,7 @@ const getTypeColor = (type: string) => {
                     )}
                     <p class="text-sm text-gray-600">{session.room}</p>
                   </div>
-                  <div class="border-2 border-green-500 text-center text-green-600 hover:bg-green-500 hover:text-white px-4 py-2 rounded-full font-bold  transition-all duration-200 hover:scale-105 transform">
+                  <div class="btn">
                     <AddToGoogleCalendar event={session} client:load />
                   </div>
                 </div>
@@ -89,6 +87,17 @@ const getTypeColor = (type: string) => {
         </div>
       </div>
     </section>
+  </section>
+
+  <!-- Download Schedule -->
+  <section class="py-20 px-4 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-black mb-6">Take It With You</h2>
+      <p class="text-xl text-black mb-8">
+        Download the complete schedule and add it to your calendar so you don't
+        miss anything!
+      </p>
+    </div>
   </section>
 
   <!-- Workshop Schedule -->
@@ -125,37 +134,13 @@ const getTypeColor = (type: string) => {
                   )}
                   <p class="text-sm text-gray-600">{session.room}</p>
                 </div>
-                <div class="border-2 border-green-500 text-center text-green-600 hover:bg-green-500 hover:text-white px-4 py-2 rounded-full font-bold transition-all duration-200 hover:scale-105 transform">
+                <div class="btn">
                   <AddToGoogleCalendar event={session} client:load />
                 </div>
               </div>
             </div>
           ))
         }
-      </div>
-    </div>
-  </section>
-
-  <!-- Download Schedule -->
-  <section class="py-20 px-4 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl font-bold text-black mb-6">Take It With You</h2>
-      <p class="text-xl text-black mb-8">
-        Download the complete schedule and add it to your calendar so you don't
-        miss anything!
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <!-- <a
-          href="/schedule.pdf"
-          class="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-200 glow-effect hover:scale-105 transform"
-        >
-          Download PDF
-        </a> -->
-        <div
-          class="border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white px-6 py-2 rounded-full font-bold text-lg transition-all duration-200 hover:scale-105 transform"
-        >
-          <AddToGoogleCalendar event={fullEvent} client:load />
-        </div>
       </div>
     </div>
   </section>
