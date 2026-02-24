@@ -30,13 +30,59 @@ export const NAVIGATION = {
     { name: "Speakers", href: "/speakers" },
     { name: "Schedule", href: "/schedule" },
     { name: "Team", href: "/team" },
-    { name: "Past Events", href: "/2025" },
+    { name: "Sponsors", href: "/sponsors" },
   ],
   cta: {
-    text: "Coming Soon",
-    url: "#",
+    text: "OSD 2025",
+    url: "/2025",
   },
 };
+
+export const CALLS_2026 = [
+  {
+    title: "Call for Speakers",
+    description:
+      "Share your knowledge & inspire the community with a talk or workshop.",
+    href: "/cfspk",
+    emoji: "🎤",
+    color: "from-violet-500 to-purple-600",
+    badge: "Open",
+  },
+  {
+    title: "Call for Volunteers",
+    description:
+      "Help us make OSD 2026 an unforgettable experience for everyone.",
+    href: "/cfv",
+    emoji: "🙌",
+    color: "from-emerald-500 to-green-600",
+    badge: "Open",
+  },
+  {
+    title: "Call for Sponsors",
+    description: "Support open source and grow your brand with the community.",
+    href: "/cfs",
+    emoji: "🤝",
+    color: "from-amber-500 to-orange-600",
+    badge: "Open",
+  },
+  {
+    title: "Call for Community Partners",
+    description:
+      "Partner with us to amplify the open source movement together.",
+    href: "/cfc",
+    emoji: "🌐",
+    color: "from-sky-500 to-blue-600",
+    badge: "Open",
+  },
+  {
+    title: "Call for Evangelists",
+    description: "Spread the word about OSD 2026 and help grow our reach.",
+    href: "/cfe",
+    emoji: "📣",
+    color: "from-pink-500 to-rose-600",
+    badge: "Open",
+  },
+];
 
 export const FOOTER = {
   description:
