@@ -1,0 +1,86 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import "@/styles/2025/global.css";
+---
+
+<Layout title="Schedule — Open Source Day 2026" activePath="/schedule">
+  <!-- Hero -->
+  <div class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white px-4 py-24">
+    <div class="absolute top-0 -right-4 w-80 h-80 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+    <div class="absolute -bottom-8 -left-4 w-80 h-80 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto text-center">
+      <!-- Status badge -->
+      <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-sky-50 text-sky-700 text-sm font-bold border border-sky-200 mb-8 shadow-sm">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+        </span>
+        BEING PLANNED
+      </div>
+
+      <div class="text-7xl mb-6">🗓️</div>
+
+      <h1 class="text-6xl md:text-8xl font-black tracking-tight mb-6">
+        <span class="block text-gray-900">OSD 2026</span>
+        <span class="block" style="background: linear-gradient(135deg, #0ea5e9, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SCHEDULE</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed">
+        The OSD 2026 schedule is being architected. Stay tuned — and if you'd like to speak, volunteer, or partner, the forms are open now!
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+        <a
+          href="/cfspk"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group inline-flex items-center gap-2 px-8 py-4 font-bold text-white rounded-full transition-all duration-200 hover:scale-105 shadow-xl"
+          style="background: linear-gradient(135deg, #0ea5e9, #06b6d4);"
+        >
+          🎤 Apply to Speak
+          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/2025/schedule"
+          class="inline-flex items-center gap-2 px-8 py-4 font-bold text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-full transition-all duration-200 hover:scale-105"
+        >
+          View 2025 Schedule
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- Teaser cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mt-8">
+        <div class="bg-white border border-sky-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">
+          <div class="text-3xl mb-3">🧠</div>
+          <h3 class="font-bold text-gray-900 mb-2">Keynotes</h3>
+          <p class="text-gray-500 text-sm">Opening & closing keynotes from industry leaders in the open source world.</p>
+        </div>
+        <div class="bg-white border border-sky-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">
+          <div class="text-3xl mb-3">🛠️</div>
+          <h3 class="font-bold text-gray-900 mb-2">Workshops & Devrooms</h3>
+          <p class="text-gray-500 text-sm">Parallel hands-on sessions and devrooms across multiple tracks.</p>
+        </div>
+        <div class="bg-white border border-sky-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">
+          <div class="text-3xl mb-3">🌐</div>
+          <h3 class="font-bold text-gray-900 mb-2">Community Panels</h3>
+          <p class="text-gray-500 text-sm">Curated panel discussions on open source community, business, and tech.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notify me -->
+  <section class="py-16 px-4 bg-gray-950 text-center">
+    <p class="text-gray-400 mb-2 text-lg">Want to be notified when the schedule is announced?</p>
+    <p class="text-gray-500 text-sm mb-4">Follow us or reach out at</p>
+    <a href="mailto:opensourceweekend@gmail.com" class="text-sky-400 hover:text-sky-300 font-semibold text-lg hover:underline">
+      opensourceweekend@gmail.com
+    </a>
+  </section>
+</Layout>

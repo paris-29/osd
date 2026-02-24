@@ -1,0 +1,114 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import "@/styles/2025/global.css";
+---
+
+<Layout title="Sponsors — Open Source Day 2026" activePath="/sponsors">
+  <!-- Hero -->
+  <div class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white px-4 py-24">
+    <div class="absolute top-0 -right-4 w-80 h-80 bg-amber-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+    <div class="absolute -bottom-8 -left-4 w-80 h-80 bg-orange-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto text-center">
+      <!-- Status badge -->
+      <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-amber-50 text-amber-700 text-sm font-bold border border-amber-200 mb-8 shadow-sm animate-pulse">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+        </span>
+        APPLICATIONS OPEN
+      </div>
+
+      <div class="text-7xl mb-6">🤝</div>
+
+      <h1 class="text-6xl md:text-8xl font-black tracking-tight mb-6">
+        <span class="block text-gray-900">OSD 2026</span>
+        <span class="block" style="background: linear-gradient(135deg, #f59e0b, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SPONSORS</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto mb-12 leading-relaxed">
+        Support India's biggest open source event and put your brand in front of 1000+ developers, engineers, and open source enthusiasts.
+      </p>
+
+      <!-- 3 CTA buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+        <a
+          href="/cfs"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group inline-flex items-center gap-2 px-8 py-4 font-bold text-white rounded-full transition-all duration-200 hover:scale-105 shadow-xl"
+          style="background: linear-gradient(135deg, #f59e0b, #ea580c);"
+        >
+          🤝 Become a Sponsor
+          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/cfc"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group inline-flex items-center gap-2 px-8 py-4 font-bold text-white rounded-full transition-all duration-200 hover:scale-105 shadow-xl"
+          style="background: linear-gradient(135deg, #0ea5e9, #4f46e5);"
+        >
+          🌐 Community Partner
+          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a
+          href="/cfe"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group inline-flex items-center gap-2 px-8 py-4 font-bold text-white rounded-full transition-all duration-200 hover:scale-105 shadow-xl"
+          style="background: linear-gradient(135deg, #ec4899, #be185d);"
+        >
+          📣 Become an Evangelist
+          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      </div>
+
+      <a
+        href="/2025/sponsors"
+        class="inline-flex items-center gap-2 text-gray-500 hover:text-gray-700 font-medium text-sm transition-colors"
+      >
+        View 2025 Sponsors & Partners →
+      </a>
+    </div>
+
+    <!-- Opportunity cards -->
+    <div class="relative z-10 max-w-5xl mx-auto w-full mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+      <!-- Sponsor card -->
+      <div class="bg-white border border-amber-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">
+        <div class="text-3xl mb-3">🤝</div>
+        <h3 class="font-bold text-gray-900 mb-2">Call for Sponsors</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Brand visibility, speaking opportunities, recruitment access, and more. Support open source innovation.</p>
+      </div>
+
+      <!-- Community Partner card -->
+      <div class="bg-white border border-sky-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">
+        <div class="text-3xl mb-3">🌐</div>
+        <h3 class="font-bold text-gray-900 mb-2">Community Partners</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Co-promote with us, bring your community to OSD 2026, and amplify the open source movement together.</p>
+      </div>
+
+      <!-- Evangelist card -->
+      <div class="bg-white border border-pink-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all">
+        <div class="text-3xl mb-3">📣</div>
+        <h3 class="font-bold text-gray-900 mb-2">Evangelists</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Spread the word across your network, campus, or company. Help OSD 2026 reach every corner of India.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="py-16 px-4 bg-gray-950 text-center">
+    <p class="text-gray-400 mb-4 text-lg">Interested in sponsoring? Let's talk.</p>
+    <a href="mailto:opensourceweekend@gmail.com" class="text-amber-400 hover:text-amber-300 font-semibold text-lg hover:underline">
+      opensourceweekend@gmail.com
+    </a>
+  </section>
+</Layout>
