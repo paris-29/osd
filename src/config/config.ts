@@ -33,11 +33,11 @@ export const EVENT = {
   description:
     "Open Source Day 2026 is a community-driven event celebrating the power of open source software. Join developers, maintainers, and enthusiasts for a day of learning, collaboration, and innovation.",
   stats: {
-    expectedAttendees: "1000+",
-    speakers: "30+",
+    expectedAttendees: "600+",
+    speakers: "20+",
     workshops: "8+",
     sponsors: "25+",
-    communityPartners: "80+",
+    communityPartners: "70+",
   },
 };
 
@@ -514,7 +514,7 @@ export const VENUE = {
   address: "Ahmedabad, Gujarat, India",
   description:
     "The OSD 2026 venue is being finalized. We'll be hosting the event at a premier institution in Ahmedabad that provides a dynamic environment for innovation and collaboration.",
-  capacity: "1000+ attendees",
+  capacity: "600+ attendees",
   googleMapsLink: "#",
   facilities: [
     "Large auditorium with 500+ seats",
